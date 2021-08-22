@@ -27,6 +27,7 @@
   "xclip"
   "maim"
   ;; apps
+  "libreoffice"
   "telegram-desktop"
   "icecat"
   "ungoogled-chromium"
