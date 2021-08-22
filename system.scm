@@ -22,6 +22,7 @@
 		     certs
 		     emacs
 		     emacs-xyz
+		     python-xyz
 		     ratpoison
 		     suckless
 		     wm
