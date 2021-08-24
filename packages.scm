@@ -39,4 +39,6 @@
   "blender"
   ;; emacs
   "emacs-pdf-tools"
+  ;;games
+  "vitetris"
   ))
