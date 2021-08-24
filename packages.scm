@@ -33,8 +33,9 @@
   "ungoogled-chromium"
   "gimp"
   "vlc"
-  ;; arts
+  ;; music
   "supercollider"
+  ;; 3D
   "blender"
   ;; emacs
   "emacs-pdf-tools"
