@@ -26,8 +26,10 @@
   "pavucontrol"
   "xclip"
   "maim"
-  ;; apps
+  ;; disk space
   "duc"
+  "kdf"
+  ;; apps
   "xpdf"
   "flatpak"
   "libreoffice"
