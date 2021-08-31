@@ -27,11 +27,13 @@
   "xclip"
   "maim"
   ;; apps
+  "flatpak"
   "libreoffice"
   "telegram-desktop"
   "icecat"
   "ungoogled-chromium"
   "gimp"
+  ;; video
   "vlc"
   ;; music
   "supercollider"
