@@ -27,6 +27,7 @@
   "xclip"
   "maim"
   ;; apps
+  "xpdf"
   "flatpak"
   "libreoffice"
   "telegram-desktop"
