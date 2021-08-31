@@ -27,6 +27,7 @@
   "xclip"
   "maim"
   ;; apps
+  "duc"
   "xpdf"
   "flatpak"
   "libreoffice"
