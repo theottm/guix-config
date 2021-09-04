@@ -121,13 +121,13 @@
                       (xorg-configuration
                        (xorg-configuration
                         (keyboard-layout keyboard-layout)))))
-	    (service slim-service-type
-                     (slim-configuration
-		      (display ":1")
-                      (vt "vt8")
-                      (xorg-configuration
-                       (xorg-configuration
-                        (keyboard-layout keyboard-layout)))))
+	    ;; (service slim-service-type
+            ;;          (slim-configuration
+	    ;; 	      (display ":1")
+            ;;           (vt "vt8")
+            ;;           (xorg-configuration
+            ;;            (xorg-configuration
+            ;;             (keyboard-layout keyboard-layout)))))
 	    (bluetooth-service)
 	    (modify-services %desktop-services
 			     (delete gdm-service-type))))
