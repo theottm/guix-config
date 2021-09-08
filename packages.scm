@@ -39,6 +39,7 @@
   "gimp"
   ;; video
   "vlc"
+  "obs"
   ;; music
   "supercollider"
   ;; 3D
