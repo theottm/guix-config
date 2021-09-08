@@ -37,6 +37,8 @@
   "telegram-desktop"
   "icecat" "ungoogled-chromium"
   "gimp"
+  ;; data
+  "sequeler"
   ;; video
   "vlc"
   "obs"
