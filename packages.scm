@@ -21,7 +21,7 @@
   "xsettingsd"
   "font-dejavu"
   "redshift"
-  "dbxfs"
+  "rclone"
   "lxappearance"
   "pavucontrol"
   "xclip"
