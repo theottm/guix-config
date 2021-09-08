@@ -27,6 +27,7 @@
   "xclip"
   "maim"
   ;; disk space
+  "xrandr"
   "duc"
   "kdf"
   ;; apps
