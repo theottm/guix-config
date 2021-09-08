@@ -9,7 +9,7 @@
   ;; basics (move to system ?)
   "parted"
   "openssh"
-  "zip"
+  "zip" "unzip"
   "perl"
   "git"
   ;; shell
@@ -28,16 +28,14 @@
   "maim"
   "xrandr"
   ;; system monitoring
-  "duc"
-  "kdf"
+  "duc" "kdf"
   "htop"
   ;; apps
   "xpdf"
   "flatpak"
   "libreoffice"
   "telegram-desktop"
-  "icecat"
-  "ungoogled-chromium"
+  "icecat" "ungoogled-chromium"
   "gimp"
   ;; video
   "vlc"
