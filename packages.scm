@@ -26,10 +26,11 @@
   "pavucontrol"
   "xclip"
   "maim"
-  ;; disk space
   "xrandr"
+  ;; system monitoring
   "duc"
   "kdf"
+  "htop"
   ;; apps
   "xpdf"
   "flatpak"
