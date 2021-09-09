@@ -40,6 +40,7 @@
   "gimp"
   ;; data
   "sequeler"
+  "sqlite"
   ;; video
   "vlc"
   "obs"
