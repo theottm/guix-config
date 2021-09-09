@@ -41,8 +41,8 @@
   "icecat" "ungoogled-chromium"
   "gimp"
   ;; data
-  "sequeler"
-  "sqlite"
+  ;; "sequeler"
+  ;; "sqlite"
   ;; video
   "vlc"
   "obs"
