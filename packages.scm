@@ -12,6 +12,7 @@
   "zip" "unzip"
   "perl"
   "git"
+  "make"
   ;; shell
   "zsh"
   "fzf"
