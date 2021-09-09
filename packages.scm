@@ -18,9 +18,11 @@
   "fzf"
   "fd"
   "kitty"
+  ;;fonts
+  "gs-fonts" "font-dejavu" "font-gnu-freefont"
+  ;; "font-adobe-source-han-sans" ;;asian fonts
   ;; desktop setup
   "xsettingsd"
-  "font-dejavu"
   "redshift"
   "rclone"
   "lxappearance"
