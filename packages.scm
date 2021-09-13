@@ -25,7 +25,7 @@
 
   ;;fonts
   "gs-fonts" "font-dejavu" "font-gnu-freefont"
-  ;; "font-adobe-source-han-sans" ;;asian fonts
+  "font-adobe-source-han-sans" ;;asian fonts
 
   ;; desktop setup
   "xsettingsd"
