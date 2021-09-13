@@ -14,6 +14,7 @@
   "perl"
   "git"
   "make"
+  "file"
 
   ;; shell
   "zsh"
