@@ -6,6 +6,7 @@
 
 (specifications->manifest
  (list
+
   ;; basics (move to system ?)
   "parted"
   "openssh"
@@ -13,14 +14,17 @@
   "perl"
   "git"
   "make"
+
   ;; shell
   "zsh"
   "fzf"
   "fd"
   "kitty"
+
   ;;fonts
   "gs-fonts" "font-dejavu" "font-gnu-freefont"
   ;; "font-adobe-source-han-sans" ;;asian fonts
+
   ;; desktop setup
   "xsettingsd"
   "redshift"
@@ -30,9 +34,11 @@
   "xclip"
   "maim"
   "xrandr"
+
   ;; system monitoring
   "duc" "kdf"
   "htop"
+
   ;; apps
   "xpdf"
   "flatpak"
@@ -40,18 +46,24 @@
   "telegram-desktop"
   "icecat" "ungoogled-chromium"
   "gimp"
+  
   ;; data
   ;; "sequeler"
   ;; "sqlite"
+
   ;; video
   "vlc"
   "obs"
+
   ;; music
   "supercollider"
+
   ;; 3D
   "blender"
+
   ;; emacs
   "emacs-pdf-tools"
+
   ;;games
   "vitetris"
   ))
