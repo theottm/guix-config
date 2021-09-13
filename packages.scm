@@ -46,6 +46,9 @@
   "telegram-desktop"
   "icecat" "ungoogled-chromium"
   "gimp"
+
+  ;; latex
+  "texlive"
   
   ;; data
   ;; "sequeler"
