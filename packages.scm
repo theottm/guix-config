@@ -21,6 +21,7 @@
   "fzf"
   "fd"
   "kitty"
+  "git-cal"
 
   ;;fonts
   "gs-fonts" "font-dejavu" "font-gnu-freefont"
