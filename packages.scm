@@ -47,8 +47,7 @@
   "libreoffice"
   "telegram-desktop"
   "icecat" "ungoogled-chromium"
-  "gimp"
-
+  
   ;; latex
   "texlive"
   
@@ -60,6 +59,10 @@
   "vlc"
   "obs"
 
+  ;; image
+  "gimp"
+  "imagemagick"
+  
   ;; music
   "supercollider"
 
