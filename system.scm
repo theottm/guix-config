@@ -79,12 +79,12 @@
                        (device (file-system-label "boot-fs"))
                        (mount-point "/boot")
                        (type "ext2"))
-		      (file-system
-                       (device "/dev/sdb1")
-                       (mount-point "/mnt/ihd")
-                       (type "ntfs")
-		       (check? #f)
-		       ))
+		      ;; (file-system
+                      ;;  (device "/dev/sdb1")
+                      ;;  (mount-point "/mnt/ihd")
+                      ;;  (type "ntfs")
+		      ;; (check? #f))
+		      )
                 %base-file-systems))
 
  (users (cons (user-account
