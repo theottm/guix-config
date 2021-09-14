@@ -1,6 +1,6 @@
-GUIX_PROFILE=$GUIX_EXTRA_PROFILES/pyddglab/pyddglab
+export GUIX_PROFILE=$GUIX_EXTRA_PROFILES/pyddglab/pyddglab
 . "$GUIX_PROFILE"/etc/profile
-PYTHONPATH=/home/teddd/GeometryGroup/dev/pyddglab/:$PYTHONPATH
-BLENDER_USER_CONFIG=$(pwd)/blender-config
+export PYTHONPATH=/home/teddd/GeometryGroup/dev/pyddglab/:$PYTHONPATH
+export BLENDER_USER_CONFIG=$(pwd)/blender-config
 
 $SHELL
