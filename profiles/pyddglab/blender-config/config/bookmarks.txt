@@ -1,0 +1,9 @@
+[Bookmarks]
+[Recent]
+/home/teddd/GeometryGroup/mathematica-paper/rendering/renders/colors/
+/home/teddd/GeometryGroup/mathematica-paper/rendering/renders/quad/
+/home/teddd/GeometryGroup/mathematica-paper/rendering/
+/home/teddd/GeometryGroup/dev/experiments/3-pt-lightning/
+/home/teddd/GeometryGroup/mathematica-paper/rendering/renders/discrete/
+/home/teddd/GeometryGroup/mathematica-paper/rendering/renders/
+/home/teddd/GeometryGroup/dev/experiments/

@@ -1,0 +1,2 @@
+/home/teddd/GeometryGroup/mathematica-paper/rendering/scene.blend
+/home/teddd/GeometryGroup/dev/experiments/basic.blend
