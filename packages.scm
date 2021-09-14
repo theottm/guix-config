@@ -58,6 +58,7 @@
   ;; video
   "vlc"
   "obs"
+  "ffmpeg"
 
   ;; image
   "gimp"
