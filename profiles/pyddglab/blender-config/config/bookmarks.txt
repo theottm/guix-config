@@ -1,9 +1,12 @@
 [Bookmarks]
 [Recent]
-/home/teddd/GeometryGroup/mathematica-paper/rendering/renders/colors/
-/home/teddd/GeometryGroup/mathematica-paper/rendering/renders/quad/
-/home/teddd/GeometryGroup/mathematica-paper/rendering/
-/home/teddd/GeometryGroup/dev/experiments/3-pt-lightning/
-/home/teddd/GeometryGroup/mathematica-paper/rendering/renders/discrete/
-/home/teddd/GeometryGroup/mathematica-paper/rendering/renders/
-/home/teddd/GeometryGroup/dev/experiments/
+/home/teddd/Art/src/
+/home/teddd/Uni/Kurse/Geometrie/UE/Ex1/
+/home/teddd/Art/sandboxes/blender/rendering/
+/home/teddd/Art/sandboxes/blender/moebius/render-frames/
+/home/teddd/Art/sandboxes/blender/moebius/
+/home/teddd/bin/blender/add-ons/
+/home/teddd/bin/blender/add-ons/booltron/
+/home/teddd/Art/sandboxes/structure synth/Exports/
+/home/teddd/Art/sandboxes/blender/wireframe-art/render-frames/
+/home/teddd/Art/sandboxes/blender/wireframe-art/

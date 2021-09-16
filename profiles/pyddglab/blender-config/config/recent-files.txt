@@ -1,2 +1,10 @@
-/home/teddd/GeometryGroup/mathematica-paper/rendering/scene.blend
-/home/teddd/GeometryGroup/dev/experiments/basic.blend
+/tmp/mozilla_teddd0/ShaderLibrary.blend
+/home/teddd/GeometryGroup/dev/experiments/arrow/extrude_export/export_extrude.blend
+/tmp/mozilla_teddd0/half_edge_tutorial.blend
+/home/teddd/Uni/Kurse/Geometrie/UE/Ex1/ex1-3-regions-separated-by-line-projective-plane.blend
+/home/teddd/Art/sandboxes/blender/rendering/glass-test.blend
+/home/teddd/Art/sandboxes/blender/rendering/street-light-experiments.blend
+/home/teddd/Art/sandboxes/blender/moebius/moebius.blend
+/home/teddd/Art/sandboxes/blender/stereographic projection/cube multiple colors - lo fi render.blend
+/home/teddd/Art/sandboxes/blender/wireframe-art/wireframe-sandboxe.blend
+/home/teddd/Art/sandboxes/blender/tutorials/lines_NPR.blend
