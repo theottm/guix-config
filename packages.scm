@@ -64,6 +64,7 @@
   ;; image
   "gimp"
   "imagemagick"
+  "gphoto2" ; mtp, ptp
   
   ;; music
   "supercollider"
