@@ -36,6 +36,7 @@
   "xclip"
   "maim"
   "xrandr"
+  "numlockx"
 
   ;; system monitoring
   "duc" "kdf"
