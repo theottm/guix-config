@@ -76,4 +76,5 @@
 
   ;;games
   "vitetris"
+  "steam"
   ))
