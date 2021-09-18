@@ -47,8 +47,11 @@
   "flatpak"
   "libreoffice"
   "telegram-desktop"
+
+  ;; web
   "icecat" "ungoogled-chromium"
   "transmission"
+  "filezilla"
   
   ;; latex
   "texlive"
