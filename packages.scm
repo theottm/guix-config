@@ -48,6 +48,7 @@
   "libreoffice"
   "telegram-desktop"
   "icecat" "ungoogled-chromium"
+  "transmission"
   
   ;; latex
   "texlive"
