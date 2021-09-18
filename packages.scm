@@ -80,6 +80,7 @@
   ;; emacs
   "emacs"
   "emacs-pdf-tools"
+  "emacs-scel"
 
   ;; android
   "adb"
