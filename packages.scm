@@ -80,6 +80,9 @@
   ;; emacs
   "emacs-pdf-tools"
 
+  ;; android
+  "adb"
+
   ;;games
   "vitetris"
   "steam"
