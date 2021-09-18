@@ -69,6 +69,7 @@
   "gimp"
   "imagemagick"
   "gphoto2" ; mtp, ptp
+  "eom"
   
   ;; music
   "supercollider"
