@@ -78,6 +78,7 @@
   "blender"
 
   ;; emacs
+  "emacs"
   "emacs-pdf-tools"
 
   ;; android
