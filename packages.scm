@@ -22,6 +22,7 @@
   "fd"
   "kitty"
   "git-cal"
+  "xsel"
 
   ;;fonts
   "gs-fonts" "font-dejavu" "font-gnu-freefont"
