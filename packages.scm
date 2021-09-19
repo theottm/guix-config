@@ -55,7 +55,7 @@
   "filezilla"
   
   ;; latex
-  "texlive"
+  "texlive-base"
   
   ;; data
   ;; "sequeler"
