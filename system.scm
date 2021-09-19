@@ -102,7 +102,7 @@
  ;; the log-in screen with F1.
  (packages (append (list
                     ;; window managers
-                    ratpoison i3-wm python-py3status
+                    i3-wm python-py3status
                     emacs emacs-exwm
                     ;; terminal emulator
                     xterm
