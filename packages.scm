@@ -34,7 +34,6 @@
   "redshift"
   "rclone"
   "lxappearance"
-  "pavucontrol"
   "xclip"
   "maim"
   "xrandr"
@@ -74,7 +73,9 @@
   "eom"
   
   ;; music
+  "pavucontrol"
   "supercollider"
+  "jack"
 
   ;; 3D
   "blender"
