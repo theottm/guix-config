@@ -23,8 +23,9 @@
   "kitty"
   "git-cal"
   "xsel"
+  "the-silver-searcher" ;; ag
 
-  ;;fonts
+  ;; fonts
   "gs-fonts" "font-dejavu" "font-gnu-freefont"
   "font-adobe-source-han-sans" ;;asian fonts
 
