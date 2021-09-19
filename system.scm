@@ -93,7 +93,8 @@
                (group "users")
                (supplementary-groups '("wheel" "netdev"
                                        "audio" "video"
-				       "lp" ;; for bluetooth
+				       "lp" ;; bluetooth
+				       "realtime"  ;; realtime scheduling
 				       ))
 	       (shell (file-append zsh "/bin/zsh")))
               %base-user-accounts))
@@ -134,6 +135,10 @@
             ;;           (xorg-configuration
             ;;            (xorg-configuration
             ;;             (keyboard-layout keyboard-layout)))))
+	    (pam-limits-service ;; This enables JACK to enter realtime mode
+             (list
+              (pam-limits-entry "@realtime" 'both 'rtprio 99)
+              (pam-limits-entry "@realtime" 'both 'memlock 'unlimited)))
 	    (bluetooth-service)
 	    (modify-services %desktop-services
 			     (delete gdm-service-type))))
