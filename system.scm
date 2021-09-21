@@ -99,24 +99,9 @@
 	       (shell (file-append zsh "/bin/zsh")))
               %base-user-accounts))
 
- ;; Add a bunch of window managers; we can choose one at
- ;; the log-in screen with F1.
- (packages (append (list
-                    ;; window managers
-                    i3-wm python-py3status
-                    emacs emacs-exwm
-                    ;; terminal emulator
-                    xterm
-                    ;; for HTTPS access
-                    nss-certs
-		    ;; file system
-		    ntfs-3g
-		    ;; bluetooth
-		    bluez
-		    ;; sound
-		    pulseaudio
-		    )
-                   %base-packages))
+ ;; Add the 'realtime' group
+ (groups (cons (user-group (system? #t) (name "realtime"))
+               %base-groups))
  
  ;; Use the "desktop" services, which include the X11
  ;; log-in service, networking with NetworkManager, and more.
@@ -142,6 +127,25 @@
 	    (bluetooth-service)
 	    (modify-services %desktop-services
 			     (delete gdm-service-type))))
+ 
+ ;; Add a bunch of window managers; we can choose one at
+ ;; the log-in screen with F1.
+ (packages (append (list
+                    ;; window managers
+                    i3-wm python-py3status
+                    emacs emacs-exwm
+                    ;; terminal emulator
+                    xterm
+                    ;; for HTTPS access
+                    nss-certs
+		    ;; file system
+		    ntfs-3g
+		    ;; bluetooth
+		    bluez
+		    ;; sound
+		    pulseaudio
+		    )
+                   %base-packages))
  
  ;; Allow resolution of '.local' host names with mDNS.
  (name-service-switch %mdns-host-lookup-nss))
