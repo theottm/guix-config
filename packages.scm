@@ -50,6 +50,7 @@
 
   ;; apps
   "flatpak"
+  "node"
   
   ;; docs
   "xpdf"
