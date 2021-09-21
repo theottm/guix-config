@@ -30,14 +30,19 @@
   "font-adobe-source-han-sans" ;;asian fonts
 
   ;; desktop setup
-  "xsettingsd"
   "redshift"
   "rclone"
-  "lxappearance"
   "xclip"
   "maim"
   "xrandr"
   "numlockx"
+  
+  ;; theme
+  "xsettingsd"
+  "lxappearance"
+  "materia-theme"
+  "breeze-icons"
+  "mate-icon-theme"
 
   ;; system monitoring
   "duc" "kdf"
