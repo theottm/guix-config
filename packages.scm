@@ -89,6 +89,7 @@
   "pavucontrol"
   "supercollider"
   "jack"
+  "qjackctl"
 
   ;; 3D
   "blender"
