@@ -90,6 +90,7 @@
   "supercollider"
   "jack"
   "qjackctl"
+  "alsa-utils"
 
   ;; 3D
   "blender"
