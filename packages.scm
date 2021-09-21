@@ -12,7 +12,7 @@
   "openssh"
   "zip" "unzip"
   "perl"
-  "git"
+  "git" "subversion"
   "make"
   "file"
 
