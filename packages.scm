@@ -49,9 +49,14 @@
   "htop"
 
   ;; apps
-  "xpdf"
   "flatpak"
+  
+  ;; docs
+  "xpdf"
+  "evince"
   "libreoffice"
+  
+  ;; comminication
   "telegram-desktop"
 
   ;; web
