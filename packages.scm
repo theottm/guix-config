@@ -67,6 +67,8 @@
   
   ;; latex
   "texlive-base"
+  "texlive-amsfonts"
+  "texlive-latex-amscls"
   
   ;; data
   ;; "sequeler"
