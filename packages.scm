@@ -13,11 +13,10 @@
   "zip" "unzip"
   "perl"
   "git" "subversion"
-  "make"
-  "file"
+  "make" "file"
 
   ;; shell
-  "zsh"
+   "bash" "zsh"
   "fzf"
   "fd"
   "kitty"
