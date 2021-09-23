@@ -15,7 +15,9 @@
  )
 
 (use-service-modules desktop
-		     xorg)
+		     xorg
+		     docker
+		     )
 
 (use-package-modules bootloaders
 		     shells
@@ -95,6 +97,7 @@
                                        "audio" "video"
 				       "lp" ;; bluetooth
 				       "realtime"  ;; realtime scheduling
+				       "docker"
 				       ))
 	       (shell (file-append zsh "/bin/zsh")))
               %base-user-accounts))
@@ -105,7 +108,8 @@
  
  ;; Use the "desktop" services, which include the X11
  ;; log-in service, networking with NetworkManager, and more.
- (services (cons*	    
+ (services (cons*
+	    (service docker-service-type)
 	    (service slim-service-type
                      (slim-configuration
 		      (display ":0")
