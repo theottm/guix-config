@@ -90,13 +90,14 @@
   "gphoto2" ; mtp, ptp
   "eom"
   
-  ;; music
+  ;; sound
   "pavucontrol"
+  "blueman"
   "supercollider"
   "jack"
   "qjackctl"
   "alsa-utils"
-
+    
   ;; 3D
   "blender"
 
