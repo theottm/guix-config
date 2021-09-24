@@ -19,7 +19,7 @@
    "bash" "zsh"
   "fzf"
   "fd"
-  "kitty"
+  "kitty" "gnome-terminal"
   "git-cal"
   "xsel"
   "the-silver-searcher" ;; ag
