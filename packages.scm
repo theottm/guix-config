@@ -74,6 +74,11 @@
   ;; "sequeler"
   ;; "sqlite"
 
+  ;; docker
+  "docker"
+  "docker-cli"
+  "containerd"
+  
   ;; video
   "vlc"
   "obs"
