@@ -39,9 +39,9 @@
   ;; theme
   "xsettingsd"
   "lxappearance"
-  "materia-theme"
-  "breeze-icons"
-  "mate-icon-theme"
+  "materia-theme" ;; theme
+  "breeze-icons" ;; icons
+  "mate-themes" ;; cursor
 
   ;; system monitoring
   "duc" "kdf"
