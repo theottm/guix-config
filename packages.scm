@@ -64,6 +64,7 @@
   "icecat" "ungoogled-chromium"
   "transmission"
   "filezilla"
+  "curl"
   
   ;; latex
   "texlive-base"
