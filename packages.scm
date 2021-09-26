@@ -101,6 +101,7 @@
     
   ;; 3D
   "blender"
+  "gpick"
 
   ;; emacs
   "emacs"
