@@ -1,12 +1,17 @@
 (specifications->manifest
  (list
   "python"
+  
   "python-numpy"
   "python-scipy"
   "python-sympy"
-  "python-pytest"
+  "python-mpmath"
+  
+  ;; tests
+  ;; "python-pytest"
+
   ;; docs
-  "python-sphinx"
-  "python-numpydoc"
-  "python-sphinx-copybutton"
+  ;; "python-sphinx"
+  ;; "python-numpydoc"
+  ;; "python-sphinx-copybutton"
   ))
