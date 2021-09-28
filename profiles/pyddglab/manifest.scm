@@ -14,4 +14,9 @@
   ;; "python-sphinx"
   ;; "python-numpydoc"
   ;; "python-sphinx-copybutton"
+  ;; TODO: package "python-sphinxcontrib-fulltoc" 
+  ;; TODO: package "python-sphinxcontrib-mermaid"
+
+  ;; coverage
+  ;; "python-pytest-cov"
   ))
