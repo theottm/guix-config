@@ -91,10 +91,11 @@
   "gphoto2" ; mtp, ptp
   "eom"
   
-  ;; sound
+  ;; audio
   "pavucontrol"
   "blueman"
-  "supercollider"
+  ;; "supercollider"
+  ;; "emacs-scel"
   "jack"
   "qjackctl"
   "alsa-utils"
@@ -106,7 +107,6 @@
   ;; emacs
   "emacs"
   "emacs-pdf-tools"
-  "emacs-scel"
 
   ;; android
   "adb"
