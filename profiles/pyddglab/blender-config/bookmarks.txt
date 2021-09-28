@@ -1,0 +1,4 @@
+[Bookmarks]
+[Recent]
+/home/teddd/GeometryGroup/mathematica-paper/rendering/
+/home/teddd/GeometryGroup/dev/experiments/material_set/
