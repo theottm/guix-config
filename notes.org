@@ -1,0 +1,17 @@
+* NEXT utility scripts
+check : https://github.com/Andriy0/guixsd-dotfiles/blob/main/.bashrc
+for:
+run a guix command for all profiles
+shortcuts
+- guix environnement --ad-hoc : ge
+- sudo guix system ... : gs
+- guix pull : gp
+- guix package -i --manifest=... : gu (current(default), profile, all)
+- initialize profile : gi (profile)
+
+garbage collection
+- system
+- profiles
+- docker
+
+guix-configs : https://github.com/search?q=guix-config&type=repositories
