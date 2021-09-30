@@ -15,24 +15,24 @@
  )
 
 (use-service-modules desktop
-		     xorg
-		     docker
-		     )
+					 xorg
+					 docker
+					 )
 
 (use-package-modules bootloaders
-		     shells
-		     certs
-		     emacs
-		     emacs-xyz
-		     python-xyz
-		     ratpoison
-		     suckless
-		     wm
-		     xorg
-		     linux
-		     audio
-		     pulseaudio
-		     )
+					 shells
+					 certs
+					 emacs
+					 emacs-xyz
+					 python-xyz
+					 ratpoison
+					 suckless
+					 wm
+					 xorg
+					 linux
+					 audio
+					 pulseaudio
+					 )
 
 (operating-system
 
@@ -68,8 +68,8 @@
  (bootloader (bootloader-configuration
               (bootloader grub-bootloader)
               (target "/dev/sda")
-	      (keyboard-layout keyboard-layout)
-	      ))
+			  (keyboard-layout keyboard-layout)
+			  ))
 
  ;; Assume the target root file system is labelled "root-fs",
  (file-systems (append
@@ -81,12 +81,12 @@
                        (device (file-system-label "boot-fs"))
                        (mount-point "/boot")
                        (type "ext2"))
-		      ;; (file-system
+					  ;; (file-system
                       ;;  (device "/dev/sdb1")
                       ;;  (mount-point "/mnt/ihd")
                       ;;  (type "ntfs")
-		      ;; (check? #f))
-		      )
+					  ;; (check? #f))
+					  )
                 %base-file-systems))
 
  (users (cons (user-account
@@ -95,11 +95,11 @@
                (group "users")
                (supplementary-groups '("wheel" "netdev"
                                        "audio" "video"
-				       "lp" ;; bluetooth
-				       "realtime"  ;; realtime scheduling
-				       "docker"
-				       ))
-	       (shell (file-append zsh "/bin/zsh")))
+									   "lp" ;; bluetooth
+									   "realtime"  ;; realtime scheduling
+									   "docker"
+									   ))
+			   (shell (file-append zsh "/bin/zsh")))
               %base-user-accounts))
 
  ;; Add the 'realtime' group
@@ -109,28 +109,28 @@
  ;; Use the "desktop" services, which include the X11
  ;; log-in service, networking with NetworkManager, and more.
  (services (cons*
-	    (service docker-service-type)
-	    (service slim-service-type
+			(service docker-service-type)
+			(service slim-service-type
                      (slim-configuration
-		      (display ":0")
+					  (display ":0")
                       (vt "vt7")
                       (xorg-configuration
                        (xorg-configuration
                         (keyboard-layout keyboard-layout)))))
-	    ;; (service slim-service-type
+			;; (service slim-service-type
             ;;          (slim-configuration
-	    ;; 	      (display ":1")
+			;; 	      (display ":1")
             ;;           (vt "vt8")
             ;;           (xorg-configuration
             ;;            (xorg-configuration
             ;;             (keyboard-layout keyboard-layout)))))
-	    (pam-limits-service ;; This enables JACK to enter realtime mode
+			(pam-limits-service ;; This enables JACK to enter realtime mode
              (list
               (pam-limits-entry "@realtime" 'both 'rtprio 99)
               (pam-limits-entry "@realtime" 'both 'memlock 'unlimited)))
-	    (bluetooth-service)
-	    (modify-services %desktop-services
-			     (delete gdm-service-type))))
+			(bluetooth-service)
+			(modify-services %desktop-services
+							 (delete gdm-service-type))))
  
  ;; Add a bunch of window managers; we can choose one at
  ;; the log-in screen with F1.
@@ -142,13 +142,13 @@
                     xterm
                     ;; for HTTPS access
                     nss-certs
-		    ;; file system
-		    ntfs-3g
-		    ;; bluetooth
-		    bluez
-		    ;; sound
-		    pulseaudio
-		    )
+					;; file system
+					ntfs-3g
+					;; bluetooth
+					bluez
+					;; sound
+					pulseaudio
+					)
                    %base-packages))
  
  ;; Allow resolution of '.local' host names with mDNS.
