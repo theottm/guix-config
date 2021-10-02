@@ -105,8 +105,8 @@
   ;; audio
   "pavucontrol"
   "blueman"
-  ;; "supercollider"
-  ;; "emacs-scel"
+  "supercollider"
+  "emacs-scel"
   "jack"
   "qjackctl"
   "alsa-utils"
