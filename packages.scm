@@ -86,6 +86,9 @@
   ;; "sequeler"
   ;; "sqlite"
 
+  ;; language servers
+  ;; TODO:"python-language-server"
+  
   ;; docker
   "docker"
   "docker-cli"
