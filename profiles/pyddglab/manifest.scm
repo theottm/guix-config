@@ -11,12 +11,12 @@
   ;; "python-pytest"
 
   ;; docs
-  ;; "python-sphinx"
-  ;; "python-numpydoc"
-  ;; "python-sphinx-copybutton"
-  ;; TODO: package "python-sphinxcontrib-fulltoc" 
-  ;; TODO: package "python-sphinxcontrib-mermaid"
+  "python-sphinx"
+  "python-numpydoc"
+  "python-sphinx-copybutton"
+  "python-sphinxcontrib-fulltoc" 
+  "python-sphinxcontrib-mermaid"
 
   ;; coverage
-  ;; "python-pytest-cov"
+  "python-pytest-cov"
   ))
