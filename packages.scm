@@ -68,9 +68,19 @@
   
   ;; latex
   "texlive-base"
-  "texlive-cm"
+  ;; math
   "texlive-amsfonts"
   "texlive-latex-amscls"
+  ;; org-mode export
+  "texlive-cm"
+  "texlive-latex-graphics"
+  "texlive-latex-oberdiek"
+  "texlive-latex-wrapfig"
+  "texlive-generic-ulem"
+  "texlive-latex-capt-of"
+  "texlive-latex-hyperref"
+  "texlive-cm-super"
+  "texlive-fonts-ec"
   
   ;; data
   ;; "sequeler"
