@@ -68,6 +68,7 @@
   
   ;; latex
   "texlive-base"
+  "texlive-cm"
   "texlive-amsfonts"
   "texlive-latex-amscls"
   
