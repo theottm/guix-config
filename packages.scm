@@ -65,6 +65,12 @@
   "transmission"
   "filezilla"
   "curl"
+
+  ;; spelling
+  "hunspell"
+  "hunspell-dict-de"
+  "hunspell-dict-fr"
+  "hunspell-dict-en"
   
   ;; latex
   "texlive-base"
