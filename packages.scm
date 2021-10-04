@@ -75,8 +75,10 @@
   ;; latex
   "texlive-base"
   ;; math
+  "texlive-txfonts"
   "texlive-amsfonts"
   "texlive-latex-amscls"
+  "texlive-latex-mathtools"
   ;; org-mode export
   "texlive-cm"
   "texlive-latex-graphics"
