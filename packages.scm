@@ -133,6 +133,7 @@
 
   ;; android
   "adb"
+  "kdeconnect"
 
   ;;games
   "vitetris"
