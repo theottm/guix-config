@@ -35,6 +35,7 @@
   "maim"
   "xrandr"
   "numlockx"
+  "xdg-utils"
   
   ;; theme
   "xsettingsd"
