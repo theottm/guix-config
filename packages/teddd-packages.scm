@@ -74,3 +74,39 @@
    (synopsis "Mermaid diagrams in yours Sphinx powered docs")
    (description "Mermaid diagrams in yours Sphinx powered docs")
    (license #f))) ;; remove temporarly
+
+(define-public texlive-latex-minted
+  (package
+   (name "texlive-latex-minted")
+   (version "2.5")
+   (source
+    (origin
+     (method svn-fetch)
+     (uri (texlive-ref "latex" "minted"))
+     (sha256
+      (base32 "0mh8gv47w7vn4knahs12qffal6mmln86vh17q7a5m2gdag6jwagc"))))
+   (build-system texlive-build-system)
+   (arguments '(#:tex-directory "latex/minted"))
+   (home-page "http://www.ctan.org/pkg/minted")
+   (synopsis "Highlighted source code for LaTeX")
+   (description
+    "The package that facilitates expressive syntax highlighting in LaTeX using the powerful Pygments library.  The package also provides options to customize the highlighted source code output using fancyvrbfancyvrb.")
+   (license lppl1.3+)))
+
+(define-public texlive-latex-sclang-prettifier
+  (package
+   (name "texlive-latex-sclang-prettifier")
+   (version "0.1")
+   (source
+    (origin
+     (method svn-fetch)
+     (uri (texlive-ref "latex" "sclang-prettifier"))
+     (sha256
+      (base32 "1nfar3p8rqh7zim3pb8r8sh6cgsdr27580rzlf26y3zsd74ycz9h"))))
+   (build-system texlive-build-system)
+   (arguments '(#:tex-directory "latex/sclang-prettifier"))
+   (home-page "http://www.ctan.org/pkg/sclang-prettifier")
+   (synopsis "Prettyprinting SuperCollider source code")
+   (description
+    "Built on top of the listingslistings package, the package allows effortless prettyprinting of SuperCollider source code in documents typeset with LaTeX & friends.")
+   (license lppl1.3+)))
