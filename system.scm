@@ -17,6 +17,7 @@
 (use-service-modules desktop
 		     xorg
 		     docker
+		     virtualization
 		     )
 
 (use-package-modules bootloaders
@@ -109,25 +110,28 @@
   ;; Use the "desktop" services, which include the X11
   ;; log-in service, networking with NetworkManager, and more.
   (services (cons*
+	     (service qemu-binfmt-service-type
+		      (qemu-binfmt-configuration
+		       (platforms (lookup-qemu-platforms "arm" "aarch64"))))
 	     (service docker-service-type)
 	     (service slim-service-type
-                      (slim-configuration
+		      (slim-configuration
 		       (display ":0")
-                       (vt "vt7")
-                       (xorg-configuration
+		       (vt "vt7")
+		       (xorg-configuration
 			(xorg-configuration
-                         (keyboard-layout keyboard-layout)))))
+			 (keyboard-layout keyboard-layout)))))
 	     ;; (service slim-service-type
-             ;;          (slim-configuration
+	     ;;          (slim-configuration
 	     ;; 	      (display ":1")
-             ;;           (vt "vt8")
-             ;;           (xorg-configuration
-             ;;            (xorg-configuration
-             ;;             (keyboard-layout keyboard-layout)))))
+	     ;;           (vt "vt8")
+	     ;;           (xorg-configuration
+	     ;;            (xorg-configuration
+	     ;;             (keyboard-layout keyboard-layout)))))
 	     (pam-limits-service ;; This enables JACK to enter realtime mode
-              (list
-               (pam-limits-entry "@realtime" 'both 'rtprio 99)
-               (pam-limits-entry "@realtime" 'both 'memlock 'unlimited)))
+	      (list
+	       (pam-limits-entry "@realtime" 'both 'rtprio 99)
+	       (pam-limits-entry "@realtime" 'both 'memlock 'unlimited)))
 	     (bluetooth-service)
 	     (modify-services %desktop-services
 	       (delete gdm-service-type))))
@@ -135,13 +139,13 @@
   ;; Add a bunch of window managers; we can choose one at
   ;; the log-in screen with F1.
   (packages (append (list
-                     ;; window managers
-                     i3-wm python-py3status
-                     emacs emacs-exwm
-                     ;; terminal emulator
-                     xterm
-                     ;; for HTTPS access
-                     nss-certs
+		     ;; window managers
+		     i3-wm python-py3status
+		     emacs emacs-exwm
+		     ;; terminal emulator
+		     xterm
+		     ;; for HTTPS access
+		     nss-certs
 		     ;; file system
 		     ntfs-3g
 		     ;; bluetooth
@@ -149,7 +153,7 @@
 		     ;; sound
 		     pulseaudio
 		     )
-                    %base-packages))
+		    %base-packages))
   
   ;; Allow resolution of '.local' host names with mDNS.
   (name-service-switch %mdns-host-lookup-nss))
