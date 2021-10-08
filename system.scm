@@ -86,10 +86,14 @@
                        ;;  (device "/dev/sdb1")
                        ;;  (mount-point "/mnt/ihd")
                        ;;  (type "ntfs")
-		       ;; (check? #f))
+		       ;; 	(options "rw")
+		       ;; 	(check? #f)
+		       ;; 	)
 		       )
                  %base-file-systems))
-
+  
+  (swap-devices (list (file-system-label "swap-fs")))
+		
   (users (cons (user-account
 		(name "teddd")
 		(comment "Theo Tyburn")
