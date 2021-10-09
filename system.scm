@@ -57,7 +57,8 @@
      (first (lookup-inferior-packages inferior "linux" "5.13.12"))))
   (initrd microcode-initrd)
   (firmware (list linux-firmware))
-  
+
+  (label (string-append "gazelle-swap " (operating-system-default-label this-operating-system)))
   (host-name "gazelle")
   (timezone "Europe/Berlin")
   (locale "en_US.utf8")
