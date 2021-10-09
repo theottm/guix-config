@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export GUIX_PROFILE=$GUIX_EXTRA_PROFILES/guix-dev/guix-dev
+
+env -i $(which bash) --login --noprofile --norc -c ". $GUIX_PROFILE/etc/profile && export TERM=xterm && $SHELL --no-rcs"
