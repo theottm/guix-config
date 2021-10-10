@@ -58,7 +58,9 @@
   (initrd microcode-initrd)
   (firmware (list linux-firmware))
 
-  (label (string-append "gazelle-swap " (operating-system-default-label this-operating-system)))
+  (label (string-append "gazelle-"
+			"slim2" ;; my custom tag
+			" " (operating-system-default-label this-operating-system)))
   (host-name "gazelle")
   (timezone "Europe/Berlin")
   (locale "en_US.utf8")
@@ -123,16 +125,20 @@
 		      (slim-configuration
 		       (display ":0")
 		       (vt "vt7")
+		       (theme %default-slim-theme)
+		       (theme-name %default-slim-theme-name)
 		       (xorg-configuration
 			(xorg-configuration
 			 (keyboard-layout keyboard-layout)))))
-	     ;; (service slim-service-type
-	     ;;          (slim-configuration
-	     ;; 	      (display ":1")
-	     ;;           (vt "vt8")
-	     ;;           (xorg-configuration
-	     ;;            (xorg-configuration
-	     ;;             (keyboard-layout keyboard-layout)))))
+	     (service slim-service-type
+	              (slim-configuration
+		      (display ":1")
+	              (vt "vt8")
+		      (theme %default-slim-theme)
+		      (theme-name "0.8")
+	               (xorg-configuration
+	                (xorg-configuration
+	                 (keyboard-layout keyboard-layout)))))
 	     (pam-limits-service ;; This enables JACK to enter realtime mode
 	      (list
 	       (pam-limits-entry "@realtime" 'both 'rtprio 99)
