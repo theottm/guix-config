@@ -58,9 +58,11 @@
   "evince"
   "libreoffice"
   
-  ;; comminication
+  ;; communication
   "telegram-desktop"
-
+  "mu"
+  "offlineimap3"
+  
   ;; web
   "icecat" "ungoogled-chromium"
   "transmission"
