@@ -97,8 +97,9 @@
   ;; "sequeler"
   ;; "sqlite"
 
-  ;; language servers
+  ;; python
   ;; TODO:"python-language-server"
+  ;; ipython
   
   ;; docker
   "docker"
