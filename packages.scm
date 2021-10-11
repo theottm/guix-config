@@ -112,7 +112,7 @@
   "gimp"
   "imagemagick"
   "gphoto2" ; mtp, ptp
-  "eom"
+  "imv"
   
   ;; audio
   "pavucontrol"
