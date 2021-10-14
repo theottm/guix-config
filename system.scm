@@ -133,15 +133,15 @@
 		       (xorg-configuration
 			(xorg-configuration
 			 (keyboard-layout keyboard-layout)))))
-	     (service slim-service-type
-	              (slim-configuration
-		      (display ":1")
-	              (vt "vt8")
-		      (theme %default-slim-theme)
-		      (theme-name "0.8")
-	               (xorg-configuration
-	                (xorg-configuration
-	                 (keyboard-layout keyboard-layout)))))
+	     ;; (service slim-service-type
+	     ;;          (slim-configuration
+		 ;;      (display ":1")
+	     ;;          (vt "vt8")
+		 ;;      (theme %default-slim-theme)
+		 ;;      (theme-name "0.8")
+	     ;;           (xorg-configuration
+	     ;;            (xorg-configuration
+	     ;;             (keyboard-layout keyboard-layout)))))
 	     (pam-limits-service ;; This enables JACK to enter realtime mode
 	      (list
 	       (pam-limits-entry "@realtime" 'both 'rtprio 99)
