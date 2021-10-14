@@ -98,7 +98,7 @@
   ;; "sqlite"
 
   ;; python
-  ;; TODO:"python-language-server"
+  "python-language-server"
   ;; ipython
   
   ;; docker
