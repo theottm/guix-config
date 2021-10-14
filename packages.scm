@@ -131,7 +131,7 @@
   "gpick"
 
   ;; emacs
-  "emacs"
+  "emacs-native-comp"
   "emacs-pdf-tools"
 
   ;; android

@@ -5,6 +5,9 @@
 (use-modules
  (gnu)
  (gnu system nss)
+ ;;gccemacs
+ (flat packages emacs)
+ (teddd packages teddd-packages)
  ;; non free
  (nongnu packages linux)
  (nongnu system linux-initrd)
@@ -59,7 +62,7 @@
   (firmware (list linux-firmware))
 
   (label (string-append "gazelle-"
-			"slim2" ;; my custom tag
+			"gccemacs-exwm" ;; my custom tag
 			" " (operating-system-default-label this-operating-system)))
   (host-name "gazelle")
   (timezone "Europe/Berlin")
@@ -152,7 +155,7 @@
   (packages (append (list
 		     ;; window managers
 		     i3-wm python-py3status
-		     emacs emacs-exwm
+		     emacs-native-comp emacs-exwm-native-comp
 		     ;; terminal emulator
 		     xterm
 		     ;; for HTTPS access
