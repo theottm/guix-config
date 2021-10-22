@@ -14,6 +14,7 @@
   "perl"
   "git" "subversion"
   "make" "file"
+  "lsof"
 
   ;; shell
    "bash" "zsh"
