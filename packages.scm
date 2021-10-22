@@ -10,7 +10,7 @@
   ;; basics (move to system ?)
   "parted"
   "openssh"
-  "zip" "unzip"
+  "zip" "unzip" "p7zip"
   "perl"
   "git" "subversion"
   "make" "file"
