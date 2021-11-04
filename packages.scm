@@ -53,9 +53,8 @@
   "htop"
   "glances"
 
-  ;; apps
-  "flatpak"
-  "node"
+  ;; packages
+  ;; "flatpak"
   
   ;; docs
   "xpdf"
@@ -68,6 +67,7 @@
   "offlineimap3"
   
   ;; web
+  "node"
   "icecat" "ungoogled-chromium"
   "transmission"
   "filezilla"
