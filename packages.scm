@@ -109,6 +109,7 @@
   "docker"
   "docker-cli"
   "containerd"
+  "docker-compose"
   
   ;; video
   "vlc"
