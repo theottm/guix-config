@@ -9,7 +9,6 @@
 
   ;; basics (move to system ?)
   "parted"
-  "openssh"
   "zip" "unzip" "p7zip"
   "perl"
   "git" "subversion"
@@ -24,6 +23,10 @@
   "git-cal"
   "xsel"
   "the-silver-searcher" ;; ag
+
+  ;; security
+  "openssh"
+  "pinentry"
 
   ;; fonts
   "gs-fonts" "font-dejavu" "font-gnu-freefont"
