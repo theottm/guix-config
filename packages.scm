@@ -102,8 +102,8 @@
   ;; "sqlite"
 
   ;; python
-  "python-language-server"
-  ;; ipython
+  ;; "python-language-server"
+  ;; "ipython"
   
   ;; docker
   "docker"
