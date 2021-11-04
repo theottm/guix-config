@@ -144,5 +144,5 @@
 
   ;;games
   "vitetris"
-  "steam"
+  ;; "steam"
   ))
