@@ -1,0 +1,9 @@
+(specifications->manifest
+ (list
+  "texlive-base"
+  "texlive-txfonts"
+  "texlive-amsfonts"
+  "texlive-latex-amscls"
+  "coreutils"
+  "texlive-latex-mathtools"
+  ))
