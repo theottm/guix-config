@@ -1,2 +1,3 @@
+/home/teddd/GeometryGroup/dev/experiments/basic.blend
 /home/teddd/GeometryGroup/mathematica-paper/rendering/scene-bottle.blend
 /home/teddd/GeometryGroup/mathematica-paper/rendering/scene.blend

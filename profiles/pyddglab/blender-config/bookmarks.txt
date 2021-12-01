@@ -1,4 +1,5 @@
 [Bookmarks]
 [Recent]
+/home/teddd/GeometryGroup/dev/experiments/q-nets/
 /home/teddd/GeometryGroup/mathematica-paper/rendering/
 /home/teddd/GeometryGroup/dev/experiments/material_set/

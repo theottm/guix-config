@@ -8,7 +8,7 @@
   "python-mpmath"
   
   ;; tests
-  ;; "python-pytest"
+  "python-pytest"
 
   ;; docs
   "python-sphinx"
@@ -18,5 +18,5 @@
   "python-sphinxcontrib-mermaid"
 
   ;; coverage
-  "python-pytest-cov"
+  ;; "python-pytest-cov" ;; FIXME: collision with pytest
   ))
