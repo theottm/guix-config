@@ -137,6 +137,7 @@
 
   ;; emacs
   "emacs-native-comp"
+  "emacs-exwm-native-comp"
   "emacs-pdf-tools"
 
   ;; android
