@@ -36,6 +36,9 @@
 		     linux
 		     audio
 		     pulseaudio
+		     gl
+		     opencl
+		     llvm
 		     )
 
 (operating-system
@@ -62,7 +65,7 @@
   (firmware (list linux-firmware))
 
   (label (string-append "gazelle-"
-			"gccemacs-exwm" ;; my custom tag
+			"opencl" ;; my custom tag
 			" " (operating-system-default-label this-operating-system)))
   (host-name "gazelle")
   (timezone "Europe/Berlin")
@@ -166,6 +169,13 @@
 		     bluez
 		     ;; sound
 		     pulseaudio
+		     ;; opencl
+		     mesa-opencl
+		     mesa-opencl-icd
+		     opencl-icd-loader
+		     ;; opencl-headers
+		     ;; beignet
+		     ;; libclc
 		     )
 		    %base-packages))
   
