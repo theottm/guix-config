@@ -67,7 +67,7 @@
   (firmware (list linux-firmware))
 
   (label (string-append "gazelle-"
-			"opencl" ;; my custom tag
+			"nix" ;; my custom tag
 			" " (operating-system-default-label this-operating-system)))
   (host-name "gazelle")
   (timezone "Europe/Berlin")
@@ -79,7 +79,7 @@
   ;; Bootloader
   (bootloader (bootloader-configuration
                (bootloader grub-bootloader)
-               (target "/dev/sda")
+               (targets "/dev/sda")
 	       (keyboard-layout keyboard-layout)
 	       ))
 
