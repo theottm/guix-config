@@ -21,6 +21,7 @@
 		     xorg
 		     docker
 		     virtualization
+		     nix
 		     )
 
 (use-package-modules bootloaders
@@ -39,6 +40,7 @@
 		     gl
 		     opencl
 		     llvm
+		     package-management
 		     )
 
 (operating-system
@@ -123,6 +125,7 @@
   ;; Use the "desktop" services, which include the X11
   ;; log-in service, networking with NetworkManager, and more.
   (services (cons*
+	     (service nix-service-type)
 	     (service qemu-binfmt-service-type
 		      (qemu-binfmt-configuration
 		       (platforms (lookup-qemu-platforms "arm" "aarch64"))))
@@ -176,6 +179,8 @@
 		     ;; opencl-headers
 		     ;; beignet
 		     ;; libclc
+		     ;; nix
+		     nix
 		     )
 		    %base-packages))
   
