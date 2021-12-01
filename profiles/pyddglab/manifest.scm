@@ -17,6 +17,10 @@
   "python-sphinxcontrib-fulltoc" 
   "python-sphinxcontrib-mermaid"
 
+  ;; vis
+  "jupyter"
+  "python-pythreejs"
+
   ;; coverage
   ;; "python-pytest-cov" ;; FIXME: collision with pytest
   ))
