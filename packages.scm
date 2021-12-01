@@ -54,8 +54,9 @@
   "htop"
   "glances"
 
-  ;; packages
-  ;; "flatpak"
+  ;; package management
+  "flatpak"
+  ;; "nix" ;; installed system-wide
   
   ;; docs
   "xpdf"

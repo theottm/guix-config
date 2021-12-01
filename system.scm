@@ -79,7 +79,7 @@
   ;; Bootloader
   (bootloader (bootloader-configuration
                (bootloader grub-bootloader)
-               (targets "/dev/sda")
+               (targets (list "/dev/sda"))
 	       (keyboard-layout keyboard-layout)
 	       ))
 
