@@ -26,6 +26,7 @@
 
   ;; security
   "openssh"
+  "gnupg"
   "pinentry"
 
   ;; fonts
