@@ -155,7 +155,7 @@
   (packages (append (list
 		     ;; window managers
 		     i3-wm python-py3status
-		     emacs-native-comp emacs-exwm-native-comp
+		     ;; emacs-native-comp emacs-exwm-native-comp
 		     ;; terminal emulator
 		     xterm
 		     ;; for HTTPS access
