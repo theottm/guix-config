@@ -56,7 +56,7 @@
 
   ;; package management
   "flatpak"
-  ;; "nix" ;; installed system-wide
+  "nix"
   
   ;; docs
   "xpdf"
@@ -70,7 +70,7 @@
   
   ;; web
   "node"
-  "icecat" "ungoogled-chromium"
+  "icecat" "ungoogled-chromium" "firefox"
   "transmission"
   "filezilla"
   "curl"
