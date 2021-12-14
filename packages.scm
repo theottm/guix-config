@@ -16,7 +16,7 @@
   "lsof"
 
   ;; shell
-   "bash" "zsh"
+  "bash" "zsh"
   "fzf"
   "fd"
   "kitty" "gnome-terminal"
@@ -126,6 +126,7 @@
   
   ;; audio
   "pavucontrol"
+  "pulseaudio"
   "blueman"
   "supercollider"
   "emacs-scel"
