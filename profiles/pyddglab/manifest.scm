@@ -9,6 +9,8 @@
   
   ;; tests
   "python-pytest"
+  ;; "python-pytest-timer"
+  ;; "python-pytest-catchlog"
 
   ;; docs
   "python-sphinx"
