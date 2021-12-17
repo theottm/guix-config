@@ -1,8 +1,12 @@
 (specifications->manifest
  (list
+  ;; dev
   "python"
-  
-  "python-numpy"
+  "python-ipython"
+  "python-language-server"
+
+  ;; core deps
+  ;; "python-numpy"
   "python-scipy"
   "python-sympy"
   "python-mpmath"
