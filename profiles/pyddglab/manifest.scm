@@ -26,6 +26,7 @@
   ;; vis
   "jupyter"
   "python-pythreejs"
+  "python-nbmake"
 
   ;; coverage
   ;; "python-pytest-cov" ;; FIXME: collision with pytest
