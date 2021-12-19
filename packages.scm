@@ -87,7 +87,7 @@
   "texlive-txfonts"
   "texlive-amsfonts"
   "texlive-latex-amscls"
-  "texlive-latex-mathtools"
+  ;; "texlive-latex-mathtools"
   ;; org-mode export
   "texlive-cm"
   "texlive-latex-graphics"
@@ -129,7 +129,7 @@
   "pulseaudio"
   "blueman"
   "supercollider"
-  "emacs-scel"
+  ;; "emacs-scel"
   "jack"
   "qjackctl"
   "alsa-utils"
