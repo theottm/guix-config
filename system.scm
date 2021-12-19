@@ -45,7 +45,12 @@
 
 (operating-system
 
- ;; non free
+ (label (string-append "gazelle-"
+		       "microcode" ;; my custom tag
+		       " " (operating-system-default-label this-operating-system)))
+ (host-name "gazelle")
+ 
+ ;; non free kernel
  (kernel linux)
  ;; pin kernel to avoid rebuild
  ;; (kernel
@@ -63,12 +68,8 @@
  ;;        (inferior-for-channels channels)))
  ;;    (first (lookup-inferior-packages inferior "linux" "5.13.12"))))
  (initrd microcode-initrd)
- (firmware (cons* iwlwifi-firmware %base-firmware))
+ (firmware (cons* atheros-firmware intel-microcode %base-firmware))
 
- (label (string-append "gazelle-"
-		       "substitutes" ;; my custom tag
-		       " " (operating-system-default-label this-operating-system)))
- (host-name "gazelle")
  (timezone "Europe/Berlin")
  (locale "en_US.utf8")
 
