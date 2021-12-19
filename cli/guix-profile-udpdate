@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+profile=$1
+folder="$GUIX_EXTRA_PROFILES/$profile"
+echo "Updating profile $profile"
+guix package -p "$folder/$profile" -m "$GUIX_CONFIG/profiles/$profile/manifest.scm"

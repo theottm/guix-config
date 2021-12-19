@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+profile=$1
+echo "Activating profile $profile"
+source "$GUIX_CONFIG/profiles/$profile/init"
