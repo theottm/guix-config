@@ -123,48 +123,47 @@
  
  ;; Use the "desktop" services, which include the X11
  ;; log-in service, networking with NetworkManager, and more.
- (services (cons*
-	    (service nix-service-type)
-	    (service qemu-binfmt-service-type
-		     (qemu-binfmt-configuration
-		      (platforms (lookup-qemu-platforms "arm" "aarch64"))))
-	    (service docker-service-type)
-	    (service slim-service-type
-		     (slim-configuration
-		      (display ":0")
-		      (vt "vt7")
-		      (theme %default-slim-theme)
-		      (theme-name %default-slim-theme-name)
-		      (xorg-configuration
-		       (xorg-configuration
-			(keyboard-layout keyboard-layout)))))
-	    ;; (service slim-service-type
-	    ;;          (slim-configuration
-	    ;;      (display ":1")
-	    ;;          (vt "vt8")
-	    ;;      (theme %default-slim-theme)
-	    ;;      (theme-name "0.8")
-	    ;;           (xorg-configuration
-	    ;;            (xorg-configuration
-	    ;;             (keyboard-layout keyboard-layout)))))
-	    (pam-limits-service ;; This enables JACK to enter realtime mode
-	     (list
-	      (pam-limits-entry "@realtime" 'both 'rtprio 99)
-	      (pam-limits-entry "@realtime" 'both 'memlock 'unlimited)))
-	    (bluetooth-service)
-	    (modify-services %desktop-services
-			     (delete gdm-service-type)
-			      ;; use non-free subsitutes
-			     ;; (guix-service-type config => (guix-configuration
-			     ;; 				   (inherit config)
-			     ;; 				   (substitute-urls
-			     ;; 				    (append (list "https://substitutes.nonguix.org")
-			     ;; 					    %default-substitute-urls))
-			     ;; 				   (authorized-keys
-			     ;; 				    (append (list
-			     ;; 					     (local-file "/home/teddd/guix/guix-config/nonguix-signing-key.pub")
-			     ;; 					     %default-authorized-guix-keys)))))
-			     )))
+ (services (append (list
+		    (service nix-service-type)
+		    (service qemu-binfmt-service-type
+			     (qemu-binfmt-configuration
+			      (platforms (lookup-qemu-platforms "arm" "aarch64"))))
+		    (service docker-service-type)
+		    (service slim-service-type
+			     (slim-configuration
+			      (display ":0")
+			      (vt "vt7")
+			      (theme %default-slim-theme)
+			      (theme-name %default-slim-theme-name)
+			      (xorg-configuration
+			       (xorg-configuration
+				(keyboard-layout keyboard-layout)))))
+		    ;; (service slim-service-type
+		    ;;          (slim-configuration
+		    ;;      (display ":1")
+		    ;;          (vt "vt8")
+		    ;;      (theme %default-slim-theme)
+		    ;;      (theme-name "0.8")
+		    ;;           (xorg-configuration
+		    ;;            (xorg-configuration
+		    ;;             (keyboard-layout keyboard-layout)))))
+		    (pam-limits-service ;; This enables JACK to enter realtime mode
+		     (list
+		      (pam-limits-entry "@realtime" 'both 'rtprio 99)
+		      (pam-limits-entry "@realtime" 'both 'memlock 'unlimited)))
+		    (bluetooth-service))
+		   (modify-services %desktop-services
+				    (delete gdm-service-type)
+				    ;; use non-free subsitutes
+				    (guix-service-type config => (guix-configuration
+								  (inherit config)
+								  (substitute-urls
+								   (append (list "https://substitutes.nonguix.org")
+									   %default-substitute-urls))
+								  (authorized-keys
+								   (append (list (local-file "./nonguix-signing-key.pub"))
+									   %default-authorized-guix-keys)))))
+		   ))
 
  ;; Add a bunch of window managers; we can choose one at
  ;; the log-in screen with F1.
