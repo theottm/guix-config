@@ -31,6 +31,7 @@
 
   ;; fonts
   "gs-fonts" "font-dejavu" "font-gnu-freefont"
+  "font-fantasque-sans"
   "font-adobe-source-han-sans" ;;asian fonts
 
   ;; desktop setup

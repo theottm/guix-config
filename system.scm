@@ -171,17 +171,25 @@
  (packages (append (list
 		    ;; window managers
 		    i3-wm python-py3status
+
+		    ;; emacs
 		    ;; emacs-native-comp emacs-exwm-native-comp
+		    
 		    ;; terminal emulator
 		    xterm
+		    
 		    ;; for HTTPS access
 		    nss-certs
+		    
 		    ;; file system
 		    ntfs-3g
+		    
 		    ;; bluetooth
 		    bluez
+		    
 		    ;; sound
 		    pulseaudio
+		    
 		    ;; opencl
 		    mesa-opencl
 		    mesa-opencl-icd
@@ -189,6 +197,7 @@
 		    ;; opencl-headers
 		    ;; beignet
 		    ;; libclc
+		    
 		    ;; nix
 		    nix
 		    )
