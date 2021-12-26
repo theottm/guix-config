@@ -138,6 +138,7 @@
   ;; 3D
   "blender"
   "gpick"
+  "glslviewer"
 
   ;; emacs
   "emacs-native-comp"
