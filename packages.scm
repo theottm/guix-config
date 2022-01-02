@@ -11,7 +11,8 @@
   "parted"
   "zip" "unzip" "p7zip"
   "perl"
-  "git" "subversion"
+  "git"
+  ;; "subversion"
   "make" "file"
   "lsof"
 
@@ -20,8 +21,8 @@
   "fzf"
   "fd"
   "kitty" "gnome-terminal"
-  "git-cal"
-  "xsel"
+  ;; "git-cal"
+  ;; "xsel"
   "the-silver-searcher" ;; ag
 
   ;; security
@@ -45,7 +46,7 @@
   
   ;; theme
   "xsettingsd"
-  "lxappearance"
+  ;; "lxappearance"
   "materia-theme" ;; theme
   "breeze-icons" ;; icons
   "mate-themes" ;; cursor
@@ -59,7 +60,7 @@
   "flatpak"
   "nix"
   
-  ;; docs
+  ;; documents
   "xpdf"
   "evince"
   "libreoffice"
@@ -73,7 +74,7 @@
   "node"
   "icecat" "ungoogled-chromium" "firefox"
   "transmission"
-  "filezilla"
+  ;; "filezilla"
   "curl"
 
   ;; spelling
@@ -82,31 +83,27 @@
   "hunspell-dict-fr"
   "hunspell-dict-en"
   
-  ;; latex
-  "texlive-base"
-  ;; math
-  "texlive-txfonts"
-  "texlive-amsfonts"
-  "texlive-latex-amscls"
-  ;; "texlive-latex-mathtools"
-  ;; org-mode export
-  "texlive-cm"
-  "texlive-latex-graphics"
-  "texlive-latex-oberdiek"
-  "texlive-latex-wrapfig"
-  "texlive-generic-ulem"
-  "texlive-latex-capt-of"
-  "texlive-latex-hyperref"
-  "texlive-cm-super"
-  "texlive-fonts-ec"
+  ;; ;; latex
+  ;; "texlive-base"
+  ;; ;; math
+  ;; "texlive-txfonts"
+  ;; "texlive-amsfonts"
+  ;; "texlive-latex-amscls"
+  ;; ;; "texlive-latex-mathtools"
+  ;; ;; org-mode export
+  ;; "texlive-cm"
+  ;; "texlive-latex-graphics"
+  ;; "texlive-latex-oberdiek"
+  ;; "texlive-latex-wrapfig"
+  ;; "texlive-generic-ulem"
+  ;; "texlive-latex-capt-of"
+  ;; "texlive-latex-hyperref"
+  ;; "texlive-cm-super"
+  ;; "texlive-fonts-ec"
   
   ;; data
   ;; "sequeler"
   ;; "sqlite"
-
-  ;; python
-  ;; "python-language-server"
-  ;; "ipython"
   
   ;; docker
   "docker"
@@ -115,30 +112,30 @@
   "docker-compose"
   
   ;; video
-  "vlc"
+  "vlc" "mplayer"
   "obs"
   "ffmpeg"
 
   ;; image
   "gimp"
   "imagemagick"
-  "gphoto2" ; mtp, ptp
   "imv"
+  ;; "gphoto2" ; mtp, ptp
   
   ;; audio
   "pavucontrol"
   "pulseaudio"
   "blueman"
-  "supercollider"
-  ;; "emacs-scel"
-  "jack"
-  "qjackctl"
   "alsa-utils"
+  ;; "supercollider"
+  ;; "emacs-scel"
+  ;; "jack"
+  ;; "qjackctl"
     
   ;; 3D
   "blender"
-  "gpick"
-  "glslviewer"
+  ;; "gpick"
+  "glslviewer@2"
 
   ;; emacs
   "emacs-native-comp"
@@ -146,8 +143,8 @@
   "emacs-pdf-tools"
 
   ;; android
-  "adb"
-  "kdeconnect"
+  ;; "adb"
+  ;; "kdeconnect"
 
   ;;games
   "vitetris"
