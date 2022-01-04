@@ -6,23 +6,25 @@
 
 (specifications->manifest
  (list
+  ;; disk
+  ;; "parted"
 
-  ;; basics (move to system ?)
-  "parted"
+  ;; scripting
+  ;; "perl"
+
+  ;; building
+  ;; "make"
+
+  ;; files
   "zip" "unzip" "p7zip"
-  "perl"
-  "git"
-  ;; "subversion"
-  "make" "file"
-  "lsof"
+  "file"
 
   ;; shell
   "bash" "zsh"
   "fzf"
   "fd"
   "kitty" "gnome-terminal"
-  ;; "git-cal"
-  ;; "xsel"
+  "xsel"
   "the-silver-searcher" ;; ag
 
   ;; security
@@ -55,6 +57,7 @@
   "duc" "kdf"
   "htop"
   "glances"
+  "lsof"
 
   ;; package management
   "flatpak"
@@ -100,6 +103,11 @@
   ;; "texlive-latex-hyperref"
   ;; "texlive-cm-super"
   ;; "texlive-fonts-ec"
+
+  ;; version control
+    "git"
+  ;; "git-cal"
+  ;; "subversion"
   
   ;; data
   ;; "sequeler"
@@ -135,7 +143,7 @@
   ;; 3D
   "blender"
   ;; "gpick"
-  "glslviewer@2"
+  "glslviewer@1.7.0"
 
   ;; emacs
   "emacs-native-comp"
