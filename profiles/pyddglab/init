@@ -3,6 +3,6 @@ export GUIX_PROFILE=$GUIX_EXTRA_PROFILES/pyddglab/pyddglab
 export PYTHONPATH=/home/teddd/GeometryGroup/dev/git-repos/pyddglab/:$PYTHONPATH
 export PYTHONPATH=/home/teddd/GeometryGroup/dev/experiments/:$PYTHONPATH
 export BLENDER_OPTIONS="--python-use-system-env"
-export BLENDER_USER_CONFIG=$GUIX_EXTRA_PROFILES_CONFIG/pyddglab/blender-config
+export BLENDER_USER_CONFIG=$GUIX_CONFIG/profiles/pyddglab/blender-config
 
 $SHELL
