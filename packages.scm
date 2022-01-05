@@ -48,7 +48,8 @@
   
   ;; theme
   "xsettingsd"
-  ;; "lxappearance"
+  "lxappearance" ;; gtk
+  "qt5ct" ;; qt
   "materia-theme" ;; theme
   "breeze-icons" ;; icons
   "mate-themes" ;; cursor
