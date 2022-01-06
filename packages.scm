@@ -10,7 +10,7 @@
   ;; "parted"
 
   ;; scripting
-  ;; "perl"
+  "perl" ;; TODO: add perl as propagated input for fzf
 
   ;; building
   ;; "make"
@@ -23,7 +23,7 @@
   "bash" "zsh"
   "fzf"
   "fd"
-  "kitty" "gnome-terminal"
+  "kitty" "gnome-terminal" ;; TODO: add kitty-themes
   "xsel"
   "the-silver-searcher" ;; ag
 
