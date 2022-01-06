@@ -4,6 +4,7 @@
   "python"
   "python-ipython"
   "python-language-server"
+  "python-fake-bpy-module-2.91"
 
   ;; core deps
   ;; "python-numpy"
