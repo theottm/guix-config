@@ -1,7 +1,7 @@
 (specifications->manifest
  (list
   "python-numpy"
-  "python-scipy-latest"
+  "python-scipy"
   "python-sparse"
   "python-scikit-image"
   "python-matplotlib"
