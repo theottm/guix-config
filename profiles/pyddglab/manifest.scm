@@ -3,11 +3,12 @@
   ;; dev
   "python"
   "python-ipython"
-  "python-language-server"
+  "python-lsp-server"
   "python-fake-bpy-module-2.91"
+  ;; "python-typing-extensions"
 
   ;; core deps
-  ;; "python-numpy"
+  "python-numpy"
   "python-scipy"
   "python-sympy"
   "python-mpmath"
@@ -30,5 +31,5 @@
   "python-nbmake"
 
   ;; coverage
-  ;; "python-pytest-cov" ;; FIXME: collision with pytest
+  "python-pytest-cov"
   ))
