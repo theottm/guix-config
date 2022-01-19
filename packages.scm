@@ -147,8 +147,8 @@
   "glslviewer@1.7.0"
 
   ;; emacs
-  "emacs-native-comp"
-  "emacs-exwm-native-comp"
+  "emacs-xwidgets-native-comp"
+  "emacs-xwidgets-exwm-native-comp"
   "emacs-pdf-tools"
 
   ;; android
