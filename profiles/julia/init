@@ -1,0 +1,4 @@
+export GUIX_PROFILE=$GUIX_EXTRA_PROFILES/julia/julia
+. "$GUIX_PROFILE"/etc/profile
+
+$SHELL
