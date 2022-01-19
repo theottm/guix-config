@@ -19,6 +19,7 @@
   ;; "python-pytest-catchlog"
 
   ;; docs
+  "make"
   "python-sphinx"
   "python-numpydoc"
   "python-sphinx-copybutton"
