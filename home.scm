@@ -1,3 +1,5 @@
+;; not used yet
+
 (use-modules (gnu home)
 	     (gnu home-services)
 	     (gnu home-services ssh)
