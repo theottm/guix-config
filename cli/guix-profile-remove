@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+profile=$1
+folder="$GUIX_EXTRA_PROFILES/$profile"
+echo "Removing profile $profile"
+rm -r "$folder"
+config="$GUIX_CONFIG/profiles/$profile"
+rm -r  "$config"

@@ -1,0 +1,3 @@
+. "$GUIX_PROFILE"/etc/profile
+
+$SHELL

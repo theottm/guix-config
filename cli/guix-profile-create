@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+profile=$1
+folder="$GUIX_EXTRA_PROFILES/$profile"
+echo "Creating profile $profile"
+mkdir "$folder"
+config="$GUIX_CONFIG/profiles/$profile"
+mkdir "$config"
+cat "$GUIX_CONFIG/cli/templates/manifest.scm" > "$config/manifest.scm"
+echo "export GUIX_PROFILE=$GUIX_EXTRA_PROFILES/$profile/$profile" > "$config/init"
+cat "$GUIX_CONFIG/cli/templates/init" >> "$config/init"
