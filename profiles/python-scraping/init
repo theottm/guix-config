@@ -1,0 +1,4 @@
+export GUIX_PROFILE=/home/teddd/.guix-extra-profiles/python-scraping/python-scraping
+. "$GUIX_PROFILE"/etc/profile
+
+$SHELL
