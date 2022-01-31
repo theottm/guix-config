@@ -30,6 +30,9 @@
   "jupyter"
   "python-pythreejs"
   "python-nbmake"
+  "python-nbsphinx"
+  ;; "python-jupyter-sphinx"
+  "pandoc" ;; TODO: add pandoc to python-nbsphinx propageted inputs
 
   ;; coverage
   "python-pytest-cov"
