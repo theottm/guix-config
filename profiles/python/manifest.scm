@@ -4,4 +4,5 @@
   "python-ipython"
   "jupyter"
   "python-language-server"
+  "python-pytest"
   ))
