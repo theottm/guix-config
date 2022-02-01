@@ -46,7 +46,7 @@
 (operating-system
 
  (label (string-append "gazelle-"
-		       "microcode" ;; my custom tag
+		       "v4l2loopback" ;; my custom tag
 		       " " (operating-system-default-label this-operating-system)))
  (host-name "gazelle")
  
@@ -69,6 +69,7 @@
  ;;    (first (lookup-inferior-packages inferior "linux" "5.13.12"))))
  (initrd microcode-initrd)
  (firmware (cons* atheros-firmware intel-microcode %base-firmware))
+ (kernel-loadable-modules (list v4l2loopback-linux-module))
 
  (timezone "Europe/Berlin")
  (locale "en_US.utf8")
