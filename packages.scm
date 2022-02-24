@@ -78,12 +78,13 @@
 			 ;; "nix"
 			 
 			 ;; documents
+			 "emacs-pdf-tools"
 			 "xpdf"
 			 "evince"
 			 "libreoffice"
 			 
 			 ;; communication
-			 "telegram-desktop"
+			 "emacs-telega"
 			 "mu"
 			 "offlineimap3"
 			 
@@ -163,7 +164,6 @@
 			 ;; emacs
 			 "emacs-xwidgets-native-comp"
 			 "emacs-xwidgets-exwm-native-comp"
-			 "emacs-pdf-tools"
 
 			 ;; android
 			 ;; "adb"
