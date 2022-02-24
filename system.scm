@@ -19,9 +19,9 @@
 
 (use-service-modules desktop
 		     xorg
-		     docker
-		     virtualization
-		     nix
+		     ;; docker
+		     ;; virtualization
+		     ;; nix
 		     )
 
 (use-package-modules bootloaders
@@ -30,23 +30,23 @@
 		     emacs
 		     emacs-xyz
 		     python-xyz
-		     ratpoison
+		     ;; ratpoison
 		     suckless
 		     wm
 		     xorg
 		     linux
 		     audio
 		     pulseaudio
-		     gl
-		     opencl
-		     llvm
+		     ;; gl
+		     ;; opencl
+		     ;; llvm
 		     package-management
 		     )
 
 (operating-system
 
  (label (string-append "gazelle-"
-		       "v4l2loopback" ;; my custom tag
+		       "no-nix-no-docker" ;; my custom tag
 		       " " (operating-system-default-label this-operating-system)))
  (host-name "gazelle")
  
@@ -69,7 +69,7 @@
  ;;    (first (lookup-inferior-packages inferior "linux" "5.13.12"))))
  (initrd microcode-initrd)
  (firmware (cons* atheros-firmware intel-microcode %base-firmware))
- (kernel-loadable-modules (list v4l2loopback-linux-module))
+ ;; (kernel-loadable-modules (list v4l2loopback-linux-module))
 
  (timezone "Europe/Berlin")
  (locale "en_US.utf8")
@@ -114,7 +114,7 @@
 				       "audio" "video"
 				       "lp" ;; bluetooth
 				       "realtime"  ;; realtime scheduling
-				       "docker"
+				       ;; "docker"
 				       ))
 	       (shell (file-append zsh "/bin/zsh")))
               %base-user-accounts))
@@ -126,11 +126,11 @@
  ;; Use the "desktop" services, which include the X11
  ;; log-in service, networking with NetworkManager, and more.
  (services (append (list
-		    (service nix-service-type)
-		    (service qemu-binfmt-service-type
-			     (qemu-binfmt-configuration
-			      (platforms (lookup-qemu-platforms "arm" "aarch64"))))
-		    (service docker-service-type)
+		    ;; (service nix-service-type)
+		    ;; (service qemu-binfmt-service-type
+		    ;; 	     (qemu-binfmt-configuration
+		    ;; 	      (platforms (lookup-qemu-platforms "arm" "aarch64"))))
+		    ;; (service docker-service-type)
 		    (service slim-service-type
 			     (slim-configuration
 			      (display ":0")
@@ -192,15 +192,15 @@
 		    pulseaudio
 		    
 		    ;; opencl
-		    mesa-opencl
-		    mesa-opencl-icd
-		    opencl-icd-loader
+		    ;; mesa-opencl
+		    ;; mesa-opencl-icd
+		    ;; opencl-icd-loader
 		    ;; opencl-headers
 		    ;; beignet
 		    ;; libclc
 		    
 		    ;; nix
-		    nix
+		    ;; nix
 		    )
 		   %base-packages))
  
