@@ -2,7 +2,7 @@
         (name 'guix)
         (url "https://git.savannah.gnu.org/git/guix.git")
         (branch "master")
-        (commit "b6b0cfa2f87ef8d151bf8672c7d711afad71a3e7")
+        (commit "5b71034fe81c2639bb7a9121146ddc551f6067f9")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
@@ -15,7 +15,7 @@
         (commit "729e2ce38e1a6b4eb45d1719a5a0ad25b5c2e7cd")
         (introduction
           (make-channel-introduction
-            "897c1a470da759236cc11798f4e0a5f7d4d59fbc"
+            "35533c763a81365e14d0b58ad262e8f88c82872c"
             (openpgp-fingerprint
               "2A39 3FFF 68F4 EF7A 3D29  12AF 6F51 20A0 22FB B2D5"))))
       (channel
@@ -28,5 +28,22 @@
         (name 'flat)
         (url "https://github.com/flatwhatson/guix-channel.git")
         (branch "master")
-        (commit "ef4714c105b8c5998f1d3d8db0dab9a461918595")
-	))
+        (commit "ece373bcd1e00ef746fb7b104e56ab610cc4af2a")
+	)
+      ;; (channel
+      ;;   (name 'guix-android)
+      ;;   (url "https://framagit.org/tyreunom/guix-android.git")
+      ;;   (introduction
+      ;;     (make-channel-introduction
+      ;;       "d031d039b1e5473b030fa0f272f693b469d0ac0e"
+      ;;       (openpgp-fingerprint
+      ;;         "1EFB 0909 1F17 D28C CBF9  B13A 53D4 57B2 D636 EE82"))))
+	  ;; (channel
+	  ;;  (name 'guixrus)
+	  ;;  (url "https://git.sr.ht/~whereiseveryone/guixrus")
+	  ;;  (introduction
+	  ;; 	(make-channel-introduction
+	  ;; 	 "7c67c3a9f299517bfc4ce8235628657898dd26b2"
+	  ;; 	 (openpgp-fingerprint
+	  ;; 	  "CD2D 5EAA A98C CB37 DA91  D6B0 5F58 1664 7F8B E551"))))
+      )
