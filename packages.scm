@@ -84,6 +84,7 @@
 			 "libreoffice"
 			 
 			 ;; communication
+			 "matterbridge"
 			 "emacs-telega"
 			 "mu"
 			 "offlineimap3"
