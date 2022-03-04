@@ -1,3 +1,4 @@
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/curvature/scene.blend
 /home/teddd/GeometryGroup/dev/experiments/basic.blend
 /home/teddd/GeometryGroup/mathematica-paper/rendering/scene-bottle.blend
 /home/teddd/GeometryGroup/mathematica-paper/rendering/scene.blend

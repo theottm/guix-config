@@ -1,5 +1,6 @@
 [Bookmarks]
 [Recent]
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/curvature/images/
 /home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/curvature/
 /home/teddd/GeometryGroup/dev/experiments/q-nets/
 /home/teddd/GeometryGroup/mathematica-paper/rendering/
