@@ -1,6 +1,7 @@
 (use-modules (guix inferior)
 			 (guix channels)
-             (srfi srfi-1))   ;for 'first'
+             (srfi srfi-1) 	    ;for 'first'
+			 (profiles base))
 
 (define inferior-blender-2.93
   (inferior-for-channels
@@ -17,14 +18,12 @@
 
 (packages->manifest
  (append
+   %python-base
   (list (car (lookup-inferior-packages inferior-blender-2.93 "blender")))
   ;; (list (specification->package "blender"))
   (map specification->package
 	   (list
 		;; dev
-		"python"
-		"python-ipython"
-		"python-lsp-server"
 		"python-fake-bpy-module-2.91"
 		;; "python-typing-extensions"
 
@@ -48,7 +47,7 @@
 		"python-sphinxcontrib-mermaid"
 
 		;; vis
-		"jupyter"
+		;; "jupyter"
 		"python-pythreejs"
 		"python-nbmake"
 		"python-nbsphinx"
