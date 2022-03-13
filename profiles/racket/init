@@ -1,0 +1,4 @@
+export GUIX_PROFILE=/home/teddd/.guix-extra-profiles/racket/racket
+. "$GUIX_PROFILE"/etc/profile
+
+$SHELL
