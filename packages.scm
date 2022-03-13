@@ -73,8 +73,8 @@
 	   
 	   ;; web
 	   ;; "node"
-	   ;; "icecat"
-	   ;; "ungoogled-chromium"
+	   "icecat"
+	   "ungoogled-chromium"
 	   "firefox"
 	   "transmission"
 	   ;; "filezilla"
