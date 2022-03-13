@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-for folder in "$GUIX_EXTRA_PROFILES"/*; do
+for folder in "$GUIX_EXTRA_PROFILES"/*/; do
     profile=$(basename "$folder")
     echo "Updating profile $profile"
     guix package -p "$folder/$profile" -m "$GUIX_CONFIG/profiles/$profile/manifest.scm"
