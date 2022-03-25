@@ -79,6 +79,13 @@
 	   "transmission"
 	   ;; "filezilla"
 	   "curl"
+	   ;; nyxt and dependencies
+	   "nyxt"
+	   "gst-libav"
+	   "gst-plugins-base"
+	   "gst-plugins-good"
+	   "gst-plugins-bad"
+	   "gst-plugins-ugly"
 
 	   ;; spelling
 	   "hunspell"
