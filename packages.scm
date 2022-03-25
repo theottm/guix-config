@@ -31,6 +31,7 @@
 	   "font-ghostscript" "font-dejavu" "font-gnu-freefont" ;; basics
 	   "font-fantasque-sans" ;; pretty monospace font
 	   "font-adobe-source-han-sans" ;; asian fonts
+	   "font-openmoji" ;; emojis
 
 	   ;; desktop setup
 	   "redshift"
