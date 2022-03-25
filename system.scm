@@ -19,8 +19,8 @@
 
 (use-service-modules desktop
 		     xorg
-		     ;; docker
-		     ;; virtualization
+		     docker
+		     virtualization
 		     ;; nix
 		     )
 
@@ -46,7 +46,7 @@
 (operating-system
 
  (label (string-append "gazelle-"
-		       "no-nix-no-docker" ;; my custom tag
+		       "docker" ;; my custom tag
 		       " " (operating-system-default-label this-operating-system)))
  (host-name "gazelle")
  
@@ -114,7 +114,7 @@
 				       "audio" "video"
 				       "lp" ;; bluetooth
 				       "realtime"  ;; realtime scheduling
-				       ;; "docker"
+				       "docker"
 				       ))
 	       (shell (file-append zsh "/bin/zsh")))
               %base-user-accounts))
@@ -127,10 +127,10 @@
  ;; log-in service, networking with NetworkManager, and more.
  (services (append (list
 		    ;; (service nix-service-type)
-		    ;; (service qemu-binfmt-service-type
-		    ;; 	     (qemu-binfmt-configuration
-		    ;; 	      (platforms (lookup-qemu-platforms "arm" "aarch64"))))
-		    ;; (service docker-service-type)
+		    (service qemu-binfmt-service-type
+		    	     (qemu-binfmt-configuration
+		    	      (platforms (lookup-qemu-platforms "arm" "aarch64"))))
+		    (service docker-service-type)
 		    (service slim-service-type
 			     (slim-configuration
 			      (display ":0")
