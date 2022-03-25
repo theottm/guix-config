@@ -1,0 +1,4 @@
+export GUIX_PROFILE=/home/teddd/.guix-extra-profiles/music/music
+. "$GUIX_PROFILE"/etc/profile
+
+$SHELL

@@ -144,10 +144,6 @@
 	   "pulseaudio"
 	   "blueman"
 	   "alsa-utils"
-	   ;; "supercollider"
-	   ;; "emacs-scel"
-	   ;; "jack"
-	   ;; "qjackctl"
 	   
 	   ;; 3D
 	   "blender"
