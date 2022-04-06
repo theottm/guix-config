@@ -27,8 +27,8 @@
 (use-package-modules bootloaders
 		     shells
 		     certs
-		     emacs
-		     emacs-xyz
+		     ;; emacs
+		     ;; emacs-xyz
 		     python-xyz
 		     ;; ratpoison
 		     suckless
@@ -43,30 +43,28 @@
 		     package-management
 		     )
 
+ (define %storage-file-systems
+   (map (lambda (args)
+	  (let ((subvolume (car args))
+		(mt-point (cadr args)))
+	    (file-system (device (file-system-label "storage-fs"))
+			 (mount-point mt-point)
+			 (type "btrfs")
+			 (options (string-append "subvol="
+						 subvolume)))))
+	`(("docker" "/var/lib/docker")
+	  ("nix" "/nix")
+	  ("data" "/data"))))
+
 (operating-system
 
- (label (string-append "gazelle-"
-		       "docker" ;; my custom tag
+ (label (string-append "gazelle:"
+		       "btrfs-subvolumes" ;; my custom tag
 		       " " (operating-system-default-label this-operating-system)))
  (host-name "gazelle")
  
  ;; non free kernel
  (kernel linux)
- ;; pin kernel to avoid rebuild
- ;; (kernel
- ;;  (let*
- ;;      ((channels
- ;;        (list (channel
- ;; 		(name 'nonguix)
- ;; 		(url "https://gitlab.com/nonguix/nonguix")
- ;; 		(commit "93f9b610301fd5ba1e8b4b4c8946b5c953b82111"))
- ;;              (channel
- ;; 		(name 'guix)
- ;; 		(url "https://git.savannah.gnu.org/git/guix.git")
- ;; 		(commit "d627fbad8f4e157103251b07d7543dd2f5647cea"))))
- ;; 	(inferior
- ;;        (inferior-for-channels channels)))
- ;;    (first (lookup-inferior-packages inferior "linux" "5.13.12"))))
  (initrd microcode-initrd)
  (firmware (cons* atheros-firmware intel-microcode %base-firmware))
  ;; (kernel-loadable-modules (list v4l2loopback-linux-module))
@@ -86,22 +84,13 @@
 
  ;; Assume the target root file system is labelled "root-fs",
  (file-systems (append
-                (list (file-system
-		       (device (file-system-label "root-fs"))
-		       (mount-point "/")
-		       (type "ext3"))
-                      (file-system
-		       (device (file-system-label "boot-fs"))
-		       (mount-point "/boot")
-		       (type "ext2"))
-		      ;; (file-system
-                      ;;  (device "/dev/sdb1")
-                      ;;  (mount-point "/mnt/ihd")
-                      ;;  (type "ntfs")
-		      ;; 	(options "rw")
-		      ;; 	(check? #f)
-		      ;; 	)
-		      )
+                (list (file-system (device (file-system-label "root-fs"))
+				   (mount-point "/")
+				   (type "ext3"))
+                      (file-system (device (file-system-label "boot-fs"))
+				   (mount-point "/boot")
+				   (type "ext2")))
+		%storage-file-systems
                 %base-file-systems))
  
  ;; (swap-space (target (file-system-label "swap-fs")))
@@ -182,9 +171,10 @@
 		    ;; for HTTPS access
 		    nss-certs
 		    
-		    ;; file system
+		    ;; file systems
 		    ntfs-3g
-		    
+		    btrfs-progs
+			
 		    ;; bluetooth
 		    bluez
 		    
