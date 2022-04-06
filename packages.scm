@@ -61,8 +61,8 @@
 	   
 	   ;; documents
 	   "emacs-pdf-tools"
-	   "xpdf"
-	   "evince"
+	   "xournalpp"
+	   "evince" ;; "okular"
 	   "libreoffice"
 
 	   ;; cloud
