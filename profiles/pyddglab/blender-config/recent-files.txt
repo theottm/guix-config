@@ -1,4 +1,7 @@
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/mathematica/basic.blend
 /home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/curvature/scene.blend
+/home/teddd/GeometryGroup/dev/git-repos/pyddglab-examples/bonnet-pairs-movie/scenes/genus/C-letter/C-letter.blend
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/genus/C-letter/C-letter.blend
 /home/teddd/GeometryGroup/dev/experiments/basic.blend
 /home/teddd/GeometryGroup/mathematica-paper/rendering/scene-bottle.blend
 /home/teddd/GeometryGroup/mathematica-paper/rendering/scene.blend

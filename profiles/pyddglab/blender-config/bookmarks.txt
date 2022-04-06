@@ -1,6 +1,11 @@
 [Bookmarks]
 [Recent]
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/mathematica/
 /home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/curvature/images/
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/genus/C-letter/
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/genus/SFB_Willmore/LetterB01/
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/genus/SFB_Willmore/LetterA02/
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/genus/C-letter/font/Fonts/
 /home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/curvature/
 /home/teddd/GeometryGroup/dev/experiments/q-nets/
 /home/teddd/GeometryGroup/mathematica-paper/rendering/
