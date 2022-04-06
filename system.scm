@@ -19,9 +19,13 @@
 
 (use-service-modules desktop
 		     xorg
+
+		     ;; docker
 		     docker
 		     virtualization
+
 		     ;; nix
+		     nix
 		     )
 
 (use-package-modules bootloaders
@@ -37,9 +41,13 @@
 		     linux
 		     audio
 		     pulseaudio
+
+		     ;; opencl dependencies
 		     ;; gl
 		     ;; opencl
 		     ;; llvm
+
+		     ;; nix
 		     package-management
 		     )
 
@@ -115,11 +123,16 @@
  ;; Use the "desktop" services, which include the X11
  ;; log-in service, networking with NetworkManager, and more.
  (services (append (list
-		    ;; (service nix-service-type)
+		    ;; nix
+		    (service nix-service-type)
+		    
+		    ;; docker
 		    (service qemu-binfmt-service-type
 		    	     (qemu-binfmt-configuration
 		    	      (platforms (lookup-qemu-platforms "arm" "aarch64"))))
 		    (service docker-service-type)
+
+		    ;; slim display manager
 		    (service slim-service-type
 			     (slim-configuration
 			      (display ":0")
@@ -138,14 +151,21 @@
 		    ;;           (xorg-configuration
 		    ;;            (xorg-configuration
 		    ;;             (keyboard-layout keyboard-layout)))))
+
+		    ;; jack
 		    (pam-limits-service ;; This enables JACK to enter realtime mode
 		     (list
 		      (pam-limits-entry "@realtime" 'both 'rtprio 99)
 		      (pam-limits-entry "@realtime" 'both 'memlock 'unlimited)))
+
+		    ;; bluetooth
 		    (bluetooth-service))
 		   (modify-services %desktop-services
+
+				    ;; remove gdm to use slim
 				    (delete gdm-service-type)
-				    ;; use non-free subsitutes
+				    
+				    ;; non-free subsitutes
 				    (guix-service-type config => (guix-configuration
 								  (inherit config)
 								  (substitute-urls
@@ -190,7 +210,7 @@
 		    ;; libclc
 		    
 		    ;; nix
-		    ;; nix
+		    nix
 		    )
 		   %base-packages))
  
