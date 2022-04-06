@@ -35,13 +35,12 @@
 
 	   ;; desktop setup
 	   "redshift"
-	   "rclone"
 	   "xclip"
 	   "maim"
 	   "xrandr"
 	   "numlockx"
 	   "xdg-utils"
-	   
+
 	   ;; theme
 	   "xsettingsd"
 	   "lxappearance" ;; gtk
@@ -65,6 +64,10 @@
 	   "xpdf"
 	   "evince"
 	   "libreoffice"
+
+	   ;; cloud
+	   "nextcloud-client"
+	   ;; "rclone"
 	   
 	   ;; communication
 	   "matterbridge"
@@ -74,13 +77,16 @@
 	   
 	   ;; web
 	   ;; "node"
+	   ;; "filezilla"
+	   "curl"
+	   "transmission"
+	   "openvpn"
+
+	   ;; browsers
 	   "icecat"
 	   "ungoogled-chromium"
 	   "firefox"
-	   "transmission"
-	   ;; "filezilla"
-	   "curl"
-	   ;; nyxt and dependencies
+	   ;; nyxt and dependencies TODO: pack in a package
 	   "nyxt"
 	   "gst-libav"
 	   "gst-plugins-base"
