@@ -42,6 +42,10 @@
 	   "numlockx"
 	   "xdg-utils"
 
+	   ;; nextcloud sync.scm dependencies (TODO: define in a profile)
+	   "guile"
+	   "guile-threading-macros"
+	   
 	   ;; theme
 	   "xsettingsd"
 	   "lxappearance" ;; gtk
