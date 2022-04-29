@@ -138,7 +138,7 @@
 	   "docker"
 	   "docker-cli"
 	   "containerd"
-	   "docker-compose"
+	   ;; "docker-compose" ;; doesn’t build
 	   
 	   ;; video
 	   "vlc" "mplayer"
