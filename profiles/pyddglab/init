@@ -2,6 +2,7 @@ export GUIX_PROFILE=$GUIX_EXTRA_PROFILES/pyddglab/pyddglab
 . "$GUIX_PROFILE"/etc/profile
 export PYTHONPATH=/home/teddd/GeometryGroup/dev/git-repos/pyddglab/:$PYTHONPATH
 export PYTHONPATH=/home/teddd/GeometryGroup/dev/experiments/:$PYTHONPATH
+export PYTHONPATH=/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python:$PYTHONPATH
 export BLENDER_OPTIONS="--python-use-system-env"
 export BLENDER_USER_CONFIG=$GUIX_CONFIG/profiles/pyddglab/blender-config
 
