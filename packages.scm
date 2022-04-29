@@ -61,6 +61,7 @@
 	   
 	   ;; documents
 	   "emacs-pdf-tools"
+	   "pdfgrep"
 	   "xournalpp"
 	   "evince" ;; "okular"
 	   "libreoffice"
