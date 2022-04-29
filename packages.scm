@@ -63,6 +63,7 @@
 	   ;; package management
 	   ;; "flatpak"
 	   ;; "nix"
+	   "emacs-guix"
 	   
 	   ;; documents
 	   "emacs-pdf-tools"
