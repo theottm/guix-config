@@ -7,7 +7,7 @@
 			   "python-beautifulsoup4"
 			   "python-mechanize"
 			   ;; "icecat"
-			   ;; "python-selenium"
+			   "python-selenium"
 			   ;; "r-wdman"
 			   ;; "python-pandas"
 			   ))))
