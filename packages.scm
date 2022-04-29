@@ -13,6 +13,7 @@
 	   ;; files
 	   "zip" "unzip" "p7zip"
 	   "file"
+	   "rsync"
 
 	   ;; shell
 	   "bash" "zsh"
