@@ -22,6 +22,7 @@
 	   "kitty" "gnome-terminal" ;; TODO: add kitty-themes
 	   "xsel"
 	   "the-silver-searcher" ;; ag
+	   "eless"
 
 	   ;; security
 	   "openssh"
