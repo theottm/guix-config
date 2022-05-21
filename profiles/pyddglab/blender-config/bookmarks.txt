@@ -1,12 +1,12 @@
 [Bookmarks]
 [Recent]
+/data/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/
 /home/teddd/GeometryGroup/dev/experiments/sliders/
 /home/teddd/GeometryGroup/dev/experiments/panels/
-/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/
 /home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/bonnet_pairs/scenes/conformal_deformation/
 /home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/bonnet_pairs/scenes/conformal_deformation/
 /home/teddd/GeometryGroup/projects/bonnet-pairs-movie/mathematica/
 /home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/curvature/images/
 /home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/genus/C-letter/
 /home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/genus/SFB_Willmore/LetterB01/
-/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/scenes/genus/SFB_Willmore/LetterA02/
