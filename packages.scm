@@ -108,20 +108,28 @@
 	   "hunspell-dict-en"
 	   
 	   ;; ;; latex
-	   ;; "texlive-base"
-	   ;; ;; math
-	   ;; "texlive-txfonts"
-	   ;; "texlive-amsfonts"
-	   ;; "texlive-latex-amscls"
-	   ;; ;; "texlive-latex-mathtools"
-	   ;; ;; org-mode export
-	   ;; "texlive-cm"
-	   ;; "texlive-latex-graphics"
-	   ;; "texlive-latex-oberdiek"
-	   ;; "texlive-latex-wrapfig"
-	   ;; "texlive-generic-ulem"
-	   ;; "texlive-latex-capt-of"
-	   ;; "texlive-latex-hyperref"
+	   ;; packaging
+	   "subversion" ;; required for guix import texlive. TODO: move to guix-packaging profile
+	   ;; basics
+	   "texlive-base"
+	   "texlive-grfext"
+	   ;; math
+	   "texlive-txfonts"
+	   "texlive-amsfonts"
+	   "texlive-latex-amscls"
+	   "texlive-latex-mathtools"
+	   ;; planner.tex
+	   "texlive-latex-koma-script"
+	   "texlive-latex-geometry"
+	   "texlive-pgf"
+	   ;; org-mode export
+	   "texlive-cm"
+	   "texlive-latex-graphics"
+	   "texlive-latex-oberdiek"
+	   "texlive-latex-wrapfig"
+	   "texlive-generic-ulem"
+	   "texlive-latex-capt-of"
+	   "texlive-latex-hyperref"
 	   ;; "texlive-cm-super"
 	   ;; "texlive-fonts-ec"
 
