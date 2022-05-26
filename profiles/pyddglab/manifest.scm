@@ -9,6 +9,7 @@
        (list
 	;; dev
 	"python-fake-bpy-module-2.91"
+	"python-pyls-black"
 	;; "python-typing-extensions"
 
 	;; core deps
