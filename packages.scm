@@ -73,6 +73,7 @@
 	   "xournalpp"
 	   "evince" ;; "okular"
 	   "libreoffice"
+	   "texinfo"
 
 	   ;; cloud
 	   "nextcloud-client"
