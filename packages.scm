@@ -65,6 +65,7 @@
 	   ;; "flatpak"
 	   ;; "nix"
 	   "emacs-guix"
+	   "graphviz"
 	   
 	   ;; documents
 	   "emacs-pdf-tools"
