@@ -175,8 +175,8 @@
 	   "glslviewer@1.7.0"
 
 	   ;; emacs
-	   "emacs-xwidgets-native-comp"
-	   "emacs-xwidgets-exwm-native-comp"
+	   "emacs-native-comp"
+	   "emacs-exwm-native-comp"
 
 	   ;; android
 	   ;; "adb"
