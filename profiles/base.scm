@@ -9,4 +9,6 @@
 		"jupyter"
 		"python-lsp-server"
 		"python-pytest"
+		"python-black"
+		"python-black-macchiato"
 		)))
