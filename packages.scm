@@ -62,8 +62,8 @@
 	   "lsof"
 
 	   ;; package management
-	   ;; "flatpak"
-	   ;; "nix"
+	   "flatpak"
+	   "nix"
 	   "emacs-guix"
 	   "graphviz"
 	   
