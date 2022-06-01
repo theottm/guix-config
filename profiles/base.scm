@@ -11,4 +11,7 @@
 		"python-pytest"
 		"python-black"
 		"python-black-macchiato"
+		"python-pylint"
+		"python-mypy"
+		"python-pytest-mypy"
 		)))
