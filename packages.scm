@@ -42,6 +42,7 @@
 	   "xrandr"
 	   "numlockx"
 	   "xdg-utils"
+	   "clipnotify"
 
 	   ;; nextcloud sync.scm dependencies (TODO: define in a profile)
 	   "guile"
