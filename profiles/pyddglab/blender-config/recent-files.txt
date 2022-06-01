@@ -1,10 +1,10 @@
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/computed.blend
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/empty.blend
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/overwrite.blend
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/computed_overwrite.blend
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/computed_hide.blend
 /data/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/overwrite.blend
 /data/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/empty.blend
 /data/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/computed.blend
 /home/teddd/dev/blender/persistent.blend
-/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/computed.blend
 /data/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/test.blend
-/data/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/computed-full.blend
-/data/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/computed-dirty.blend
-/data/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/computed.blend1
-/data/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/basic.blend

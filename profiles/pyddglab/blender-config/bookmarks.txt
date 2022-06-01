@@ -1,9 +1,9 @@
 [Bookmarks]
 [Recent]
+/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/
 /data/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/
 /home/teddd/dev/blender/
 /home/teddd/tmp/
-/home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/python/bonnet_pairs/scenes/conformal_deformation/
 /home/teddd/GeometryGroup/dev/experiments/sliders/
 /home/teddd/GeometryGroup/dev/experiments/panels/
 /home/teddd/GeometryGroup/projects/bonnet-pairs-movie/repo/src/bonnet_pairs/scenes/conformal_deformation/
