@@ -43,10 +43,6 @@
 	   "numlockx"
 	   "xdg-utils"
 	   "clipnotify"
-
-	   ;; nextcloud sync.scm dependencies (TODO: define in a profile)
-	   "guile"
-	   "guile-threading-macros"
 	   
 	   ;; theme
 	   "xsettingsd"
@@ -68,6 +64,13 @@
 	   "emacs-guix"
 	   "graphviz"
 	   
+	   ;; cloud
+	   "nextcloud-client"
+	   ;; "rclone"
+	   ;; nextcloud sync.scm dependencies (TODO: define in a profile)
+	   "guile"
+	   "guile-threading-macros"
+
 	   ;; documents
 	   "emacs-pdf-tools"
 	   "pdfgrep"
@@ -75,10 +78,6 @@
 	   "evince" ;; "okular"
 	   "libreoffice"
 	   "texinfo"
-
-	   ;; cloud
-	   "nextcloud-client"
-	   ;; "rclone"
 	   
 	   ;; communication
 	   "matterbridge"
