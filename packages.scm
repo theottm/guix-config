@@ -58,12 +58,15 @@
 	   "glances"
 	   "lsof"
 
-	   ;; package management
-	   "flatpak"
-	   "nix"
+	   ;; guix
 	   "emacs-guix"
 	   "graphviz"
 	   
+	   ;; other package managers
+	   "nix"
+	   "flatpak"
+	   "snap"
+
 	   ;; cloud
 	   "nextcloud-client"
 	   ;; "rclone"
