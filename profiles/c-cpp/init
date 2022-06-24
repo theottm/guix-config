@@ -1,0 +1,4 @@
+export GUIX_PROFILE=/home/teddd/.guix-extra-profiles/c-cpp/c-cpp
+. "$GUIX_PROFILE"/etc/profile
+
+$SHELL
