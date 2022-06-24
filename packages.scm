@@ -74,6 +74,10 @@
 	   "guile"
 	   "guile-threading-macros"
 
+	   ;; anki
+	   "xhost" ;; required by anki-docker
+	   "pandoc" ;; required by anki-org. TODO: guix package
+	   
 	   ;; documents
 	   "emacs-pdf-tools"
 	   "pdfgrep"
